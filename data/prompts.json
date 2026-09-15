@@ -1,0 +1,586 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "title": "CAREPOD 6컷 룩북",
+    "url": "https://claude.ai/code/artifact/b2e889b7-16d8-451e-b986-ef966d034f35",
+    "capturedAt": "2026-08-28",
+    "model": "openai/gpt-image-2",
+    "settings": "2048x2048, quality high"
+  },
+  "commonHeader": "Create ONE finished premium 1:1 Japanese social advertisement following the JSON spec below exactly. The attached photo(s) are official product references: they are the absolute authority for the product's geometry, proportions, internal structure and material — but remove any small logo printed on the product surface (surface must be blank white). Render ONLY the texts in labels.list, each exactly once, every character verbatim; no extra text anywhere. No brand logo, wordmark or symbol anywhere on the canvas or product. Follow the per-block typography directions in \"design\" — do not use one uniform font.",
+  "prompts": [
+    {
+      "id": "musinsa-jp-winter-keyring-promo-final-v1",
+      "title": "MUSINSA 일본 겨울 키링 프로모션 — 최종",
+      "category": "패션 이커머스",
+      "product": "겨울 의류·캐릭터 키링",
+      "aspectRatio": "1:1",
+      "version": "final-v1",
+      "logoSpace": "해당 없음",
+      "tags": [
+        "최종 자산",
+        "성공 프롬프트",
+        "일본 광고",
+        "K-패션",
+        "핫핑크",
+        "겨울 프로모션"
+      ],
+      "summary": "4회의 실험을 통해 키링 수납, 보슬눈, 카피 안전 여백과 핫핑크 색상 위계를 검증한 MUSINSA 일본 겨울 프로모션 최종 프롬프트.",
+      "useCommonHeader": false,
+      "isConfirmed": true,
+      "derivedFrom": "musinsa-jp-fashion-promo-base-v1",
+      "sourceExperimentId": "exp-20260828-161439-musinsa-prompt-4",
+      "confirmedIteration": 4,
+      "previewImage": "outputs/musinsa-jp-fashion-promo-base-v1/2026-08-28/musinsa-jp-winter-keyring-promo-final-v1.png",
+      "promptText": "일본 패션 이커머스를 위한 완성형 정사각형 상업용 프로모션 배너. 배경은 밝고 채도가 낮은 아이스 블루이며, 작고 섬세한 눈 입자가 보슬보슬 내리는 겨울 풍경으로 표현한다. 크고 장식적인 눈송이 아이콘이나 강한 눈보라 효과는 사용하지 않는다. 평면 그래픽 영역에는 가독성을 해치지 않는 매우 미세한 고급 인쇄 종이 질감을 적용한다. 화면 하단 좌측과 중앙에는 회색 숏 패딩, 진갈색 골덴 긴 바지, 검은색 떡볶이 코트, 짙은 파란색 니트, 빨간색·초록색 체크 목도리의 겨울 의류 5종을 배경이 제거된 사실적인 상품 사진 콜라주로 배치한다. 의류가 바닥에서 펑 튀어 오르는 것처럼 역동적인 부채꼴 리듬으로 구성한다. 각 상품은 정확히 하나씩만 등장하고 서로 충분히 분리되어 알아볼 수 있어야 한다. 상품의 실제 크기 관계를 유지하고 소매, 바짓단, 코트 여밈과 목도리 패턴이 왜곡되지 않게 한다. 우측 상단에는 굵은 네이비색 테두리를 가진 흰색 원형 패널을 만든다. 패널 상단에는 “数量限定”를 흰색 굵은 일본어 고딕체로 표시한다. 원형 패널 안에는 검정, 파랑, 갈색, 분홍, 연노랑 캐릭터 키링 5개를 2개 위, 3개 아래의 균형 잡힌 형태로 정렬한다. 각 키링의 금속 고리와 캐릭터 몸체 전체가 네이비색 원형 경계 안에 완전히 들어가야 하며, 패널 테두리나 “数量限定” 문구에 닿거나 겹치지 않도록 충분한 내부 여백을 둔다. 좌측 상단에는 큰 검은색 영문 산세리프체로 “MUSINSA”를 표시하고 흰색 외곽선을 사용한다. 그 아래 왼쪽에는 코발트 블루 원형 배지를 만들고 배지 안에 “17,000円以上の購入で”를 흰색 굵은 글자로 배치한다. 배지 오른쪽에는 “キーリングプレゼント！”를 두 줄의 굵고 역동적인 일본어 고딕체로 표시한다. 이 문구는 선명한 에디토리얼 핫핑크와 흰색 외곽선을 사용하며 왼쪽 구매 배지, 오른쪽 키링 패널, 위쪽 “MUSINSA”, 아래쪽 의류와 겹치지 않도록 크기를 조절하고 충분한 안전 여백을 확보한다. 오른쪽 중앙에는 흰색 불투명 라운드 직사각형 정보 카드 3개를 세로로 정렬한다. 첫 번째 카드에는 “最大93% ＋追加18%OFF”를 표시하고 “93%”와 “18%”만 선명한 핫핑크의 매우 굵은 숫자로 강조하며 “最大”, “＋追加”, “OFF”는 검정 또는 네이비색으로 표시한다. 두 번째 카드에는 “送料無料”를 네이비색 굵은 글자로 표시한다. 세 번째 카드에는 “期間限定 12/15〜12/28”을 표시하고 “期間限定”은 검정색, “12/15〜12/28”은 굵은 네이비색으로 강조한다. 화면 최하단 전체 너비에는 네이비색 CTA 띠를 만들고 “<<< MUSINSA GLOBAL AWARDS >>>”를 흰색 굵은 영문으로 표시한다. 전체 스타일은 겨울 분위기의 일본 온라인 쇼핑몰 세일 전단과 트렌디한 K-패션 광고를 결합한다. 아이스 블루·네이비·화이트를 기본 색상으로 사용하고 핫핑크는 “キーリングプレゼント！”와 할인 숫자 “93%”, “18%”에만 제한적으로 적용한다. 정보가 많지만 명확한 위계와 안전 여백을 가진 현대적인 리테일 레이아웃, 사실적인 누끼 상품 사진, 굵고 선명한 일본 광고 타이포그래피와 강한 색상 대비를 사용한다. 정사각형 1:1. 정확하게 한 번씩만 표시할 문구: “MUSINSA”, “17,000円以上の購入で”, “キーリングプレゼント！”, “最大93% ＋追加18%OFF”, “送料無料”, “期間限定 12/15〜12/28”, “<<< MUSINSA GLOBAL AWARDS >>>”, “数量限定”. 지정한 8개 문구 외에는 어떠한 글자, 숫자, 가격, 브랜드명, 레이블, 로고 또는 워터마크도 추가하지 않는다. 문구를 번역하거나 바꾸거나 중복하지 말고 모든 일본어 문자와 숫자, 전각 기호 “＋”와 날짜 구분 기호 “〜”를 정확하게 렌더링한다. 사람, 얼굴, 신체, 마네킹, 행거가 나오지 않게 한다. 의류와 키링을 중복하거나 추가하지 않고 상품을 자르거나 서로 심하게 가리지 않는다.",
+      "spec": {
+        "type": "일본 패션 이커머스 겨울 프로모션 최종 배너",
+        "canvas": {
+          "aspect_ratio": "1:1",
+          "background": "저채도 아이스 블루와 미세한 보슬눈"
+        },
+        "labels": {
+          "count": 8,
+          "list": [
+            "MUSINSA",
+            "17,000円以上の購入で",
+            "キーリングプレゼント！",
+            "最大93% ＋追加18%OFF",
+            "送料無料",
+            "期間限定 12/15〜12/28",
+            "<<< MUSINSA GLOBAL AWARDS >>>",
+            "数量限定"
+          ]
+        },
+        "design": "겨울 의류 5종과 원형 패널 안의 키링 5개, 아이스 블루·네이비·화이트 기반에 핵심 증정 문구와 할인 숫자만 핫핑크로 강조한 일본 K-패션 프로모션.",
+        "negative": "지정 문구 외 텍스트·로고·워터마크, 사람·마네킹·행거, 의류·키링 중복, 상품 왜곡 금지.",
+        "text_rendering": "지정된 8개 문구를 각각 정확히 한 번만 표시하고 전각 기호를 보존."
+      },
+      "composedPrompt": "일본 패션 이커머스를 위한 완성형 정사각형 상업용 프로모션 배너. 배경은 밝고 채도가 낮은 아이스 블루이며, 작고 섬세한 눈 입자가 보슬보슬 내리는 겨울 풍경으로 표현한다. 크고 장식적인 눈송이 아이콘이나 강한 눈보라 효과는 사용하지 않는다. 평면 그래픽 영역에는 가독성을 해치지 않는 매우 미세한 고급 인쇄 종이 질감을 적용한다. 화면 하단 좌측과 중앙에는 회색 숏 패딩, 진갈색 골덴 긴 바지, 검은색 떡볶이 코트, 짙은 파란색 니트, 빨간색·초록색 체크 목도리의 겨울 의류 5종을 배경이 제거된 사실적인 상품 사진 콜라주로 배치한다. 의류가 바닥에서 펑 튀어 오르는 것처럼 역동적인 부채꼴 리듬으로 구성한다. 각 상품은 정확히 하나씩만 등장하고 서로 충분히 분리되어 알아볼 수 있어야 한다. 상품의 실제 크기 관계를 유지하고 소매, 바짓단, 코트 여밈과 목도리 패턴이 왜곡되지 않게 한다. 우측 상단에는 굵은 네이비색 테두리를 가진 흰색 원형 패널을 만든다. 패널 상단에는 “数量限定”를 흰색 굵은 일본어 고딕체로 표시한다. 원형 패널 안에는 검정, 파랑, 갈색, 분홍, 연노랑 캐릭터 키링 5개를 2개 위, 3개 아래의 균형 잡힌 형태로 정렬한다. 각 키링의 금속 고리와 캐릭터 몸체 전체가 네이비색 원형 경계 안에 완전히 들어가야 하며, 패널 테두리나 “数量限定” 문구에 닿거나 겹치지 않도록 충분한 내부 여백을 둔다. 좌측 상단에는 큰 검은색 영문 산세리프체로 “MUSINSA”를 표시하고 흰색 외곽선을 사용한다. 그 아래 왼쪽에는 코발트 블루 원형 배지를 만들고 배지 안에 “17,000円以上の購入で”를 흰색 굵은 글자로 배치한다. 배지 오른쪽에는 “キーリングプレゼント！”를 두 줄의 굵고 역동적인 일본어 고딕체로 표시한다. 이 문구는 선명한 에디토리얼 핫핑크와 흰색 외곽선을 사용하며 왼쪽 구매 배지, 오른쪽 키링 패널, 위쪽 “MUSINSA”, 아래쪽 의류와 겹치지 않도록 크기를 조절하고 충분한 안전 여백을 확보한다. 오른쪽 중앙에는 흰색 불투명 라운드 직사각형 정보 카드 3개를 세로로 정렬한다. 첫 번째 카드에는 “最大93% ＋追加18%OFF”를 표시하고 “93%”와 “18%”만 선명한 핫핑크의 매우 굵은 숫자로 강조하며 “最大”, “＋追加”, “OFF”는 검정 또는 네이비색으로 표시한다. 두 번째 카드에는 “送料無料”를 네이비색 굵은 글자로 표시한다. 세 번째 카드에는 “期間限定 12/15〜12/28”을 표시하고 “期間限定”은 검정색, “12/15〜12/28”은 굵은 네이비색으로 강조한다. 화면 최하단 전체 너비에는 네이비색 CTA 띠를 만들고 “<<< MUSINSA GLOBAL AWARDS >>>”를 흰색 굵은 영문으로 표시한다. 전체 스타일은 겨울 분위기의 일본 온라인 쇼핑몰 세일 전단과 트렌디한 K-패션 광고를 결합한다. 아이스 블루·네이비·화이트를 기본 색상으로 사용하고 핫핑크는 “キーリングプレゼント！”와 할인 숫자 “93%”, “18%”에만 제한적으로 적용한다. 정보가 많지만 명확한 위계와 안전 여백을 가진 현대적인 리테일 레이아웃, 사실적인 누끼 상품 사진, 굵고 선명한 일본 광고 타이포그래피와 강한 색상 대비를 사용한다. 정사각형 1:1. 정확하게 한 번씩만 표시할 문구: “MUSINSA”, “17,000円以上の購入で”, “キーリングプレゼント！”, “最大93% ＋追加18%OFF”, “送料無料”, “期間限定 12/15〜12/28”, “<<< MUSINSA GLOBAL AWARDS >>>”, “数量限定”. 지정한 8개 문구 외에는 어떠한 글자, 숫자, 가격, 브랜드명, 레이블, 로고 또는 워터마크도 추가하지 않는다. 문구를 번역하거나 바꾸거나 중복하지 말고 모든 일본어 문자와 숫자, 전각 기호 “＋”와 날짜 구분 기호 “〜”를 정확하게 렌더링한다. 사람, 얼굴, 신체, 마네킹, 행거가 나오지 않게 한다. 의류와 키링을 중복하거나 추가하지 않고 상품을 자르거나 서로 심하게 가리지 않는다."
+    },
+    {
+      "id": "the-saem-summer-cover-promo-final-v1",
+      "title": "더샘 여름 커버 프로모션 — 민트 에디토리얼",
+      "category": "뷰티 이커머스",
+      "product": "메이크업 제품 4종",
+      "aspectRatio": "1:1",
+      "version": "final-v1",
+      "logoSpace": "좌상단",
+      "tags": [
+        "더샘",
+        "여름 메이크업",
+        "민트 라임",
+        "에디토리얼 콜라주",
+        "제품군 배치",
+        "소셜커머스"
+      ],
+      "summary": "연한 민트 라임 배경과 삼각형 제품군 배치로 청량감과 자연스러운 상품 위계를 만든 여름 K-뷰티 프로모션.",
+      "useCommonHeader": false,
+      "isConfirmed": true,
+      "derivedFrom": "the-saem-summer-cover-ad-base-v1",
+      "sourceExperimentId": "exp-20260901-173909-the-saem-summer-cover-prompt-2",
+      "confirmedIteration": 2,
+      "previewImage": "outputs/the-saem-summer-cover-ad-base-v1/2026-09-01/the-saem-summer-cover-ad-base-v1-prompt-2.png",
+      "source": {
+        "title": "사용자 제공 더샘 프로모션 이미지",
+        "capturedAt": "2026-09-01",
+        "model": "built-in image_gen",
+        "settings": "정사각형 1:1, 참조 이미지 편집"
+      },
+      "promptText": "Use case: precise-object-edit\nAsset type: finished square 1:1 Korean beauty social-commerce summer promotion, prompt 2\nInput image: Image 1 is the edit target and absolute authority for the products, background, typography, exact copy, palette, lighting style, decorative accents, badge, and CTA.\n\nSingle controlled change: rearrange ONLY the four cosmetic products into one natural, cohesive commercial product group. The current products feel scattered and unrelated. Create a believable triangular still-life cluster in the lower-middle/right area with consistent perspective, scale, contact, and lighting.\n\nRequired product arrangement:\n- Keep exactly the same four products and no others.\n- Make the open pale-blue powder compact the front-center hero. Place it upright and open, slightly lower than the other products, fully visible, with its lid tilted back naturally.\n- Position the three-color correcting compact behind and to the left of the blue compact, approximately 15% smaller due to depth, tilted only 8–12 degrees counterclockwise. Allow a small, physically plausible overlap behind the blue compact's left edge, without hiding the three colored sections.\n- Position the beige round compact behind and to the right, approximately the same apparent diameter as the color corrector. Let its lower-left edge sit slightly behind the blue compact's upper-right lid area, while preserving the complete circular silhouette and printed physical brand mark.\n- Place the concealer along the right side of the cluster, leaning inward about 10–14 degrees so it visually points toward the center. Its lower end should touch the same surface plane as the compacts rather than float. Keep its glossy black cap and full container visible.\n- Build a compact triangular silhouette: beige compact at upper-right, color corrector at upper-left, open blue compact at lower-center, concealer forming the right diagonal edge.\n- Keep deliberate but narrow breathing gaps of approximately 12–24 px between major silhouettes, with only two restrained overlaps to show depth.\n- Give all four products one shared grounding treatment: consistent upper-left lighting, soft contact shadows falling lower-right, subtle reflected mint light, and one shared pale translucent acrylic shadow beneath the cluster. No separate floating shadows.\n- Keep the product group entirely below the subtitle and away from the offer badge, footer copy, and CTA. Do not cover any text.\n\nAbsolute preservation:\n- Preserve each product's exact packaging geometry, color, material, existing physical THE SAEM print, and recognizable identity.\n- Preserve the pale mint-lime and milky-white summer background, watery caustic light, silver and lime decorative accents, headline, subtitle, silver discount badge, footer copy, CTA, typography, colors, exact spelling, positions, and square 1:1 crop.\n- Preserve these exact advertising texts, each once: “THE saem”, “여름에도 커버력은 그대로”, “더샘 베이스 메이크업 최대 28%”, “UP TO 28%”, “6일 특가 · 선착순 증정”, “에이블리 단독 혜택 →”.\n\nDo not alter any non-product-layout element. Do not add or remove products, text, logos, badges, decorations, people, hands, models, flowers, fruit, ice, leaves, or water splash. Avoid warped circular cases, merged products, duplicated lids, impossible overlaps, inconsistent perspective, floating products, oversized concealer, thick white cutout borders, cropped packaging, illegible copy, pseudo-text, watermark, illustration, cartoon, or obvious CGI.",
+      "spec": {
+        "type": "한국 뷰티 소셜커머스 여름 프로모션 배너",
+        "style": "연한 민트 라임과 밀키 화이트의 청량한 K-뷰티 에디토리얼, 물결빛 코스틱과 실버 포인트, 사실적인 상품 사진 콜라주",
+        "canvas": {
+          "aspect_ratio": "1:1",
+          "background": "밝은 민트 라임-밀키 화이트 그라데이션과 은은한 유리 코스틱 그림자"
+        },
+        "reference_note": "사용자 제공 이미지의 더샘 제품 4종은 패키지 형상·색상·재질·물리적 브랜드 인쇄의 절대 기준이다.",
+        "scale_note": "열린 블루 팩트를 전경 중심의 가장 큰 제품으로 두고, 컬러 코렉터와 베이지 팩트는 약 15% 작게 뒤쪽 좌우에 배치한다. 컨실러는 우측에서 안쪽으로 10~14도 기울여 같은 바닥면에 접지한다.",
+        "labels": {
+          "count": 6,
+          "list": [
+            "THE saem",
+            "여름에도 커버력은 그대로",
+            "더샘 베이스 메이크업 최대 28%",
+            "UP TO 28%",
+            "6일 특가 · 선착순 증정",
+            "에이블리 단독 혜택 →"
+          ]
+        },
+        "design": "좌상단에 로고·2줄 헤드라인·서브카피를 정렬하고, 하단 중앙에는 컬러 코렉터·베이지 팩트·열린 블루 팩트·컨실러를 자연스러운 삼각형 제품군으로 묶는다. 두 번의 절제된 겹침, 12~24px의 좁은 간격, 공통 투명 아크릴 받침과 우하향 접지 그림자로 하나의 촬영된 제품군처럼 표현한다. 좌하단에는 실버 할인 배지와 행사 문구, 우하단에는 딥그린 캡슐 CTA를 배치한다.",
+        "negative": "제품 추가·삭제·중복, 원형 케이스 왜곡, 비현실적인 겹침, 서로 다른 원근과 그림자, 떠 있는 제품, 과도하게 큰 컨실러, 두꺼운 흰색 누끼, 지정 문구 외 광고 카피, 사람·손·모델·꽃·과일·얼음·식물·물보라·워터마크 금지.",
+        "text_rendering": "지정된 6개 광고 문구를 각각 정확히 한 번 표시하고 한글 철자, 숫자, 가운데점과 화살표를 보존한다. 제품 표면의 기존 물리적 인쇄는 제품 레퍼런스의 일부로만 유지한다."
+      },
+      "composedPrompt": "Use case: precise-object-edit\nAsset type: finished square 1:1 Korean beauty social-commerce summer promotion, prompt 2\nInput image: Image 1 is the edit target and absolute authority for the products, background, typography, exact copy, palette, lighting style, decorative accents, badge, and CTA.\n\nSingle controlled change: rearrange ONLY the four cosmetic products into one natural, cohesive commercial product group. The current products feel scattered and unrelated. Create a believable triangular still-life cluster in the lower-middle/right area with consistent perspective, scale, contact, and lighting.\n\nRequired product arrangement:\n- Keep exactly the same four products and no others.\n- Make the open pale-blue powder compact the front-center hero. Place it upright and open, slightly lower than the other products, fully visible, with its lid tilted back naturally.\n- Position the three-color correcting compact behind and to the left of the blue compact, approximately 15% smaller due to depth, tilted only 8–12 degrees counterclockwise. Allow a small, physically plausible overlap behind the blue compact's left edge, without hiding the three colored sections.\n- Position the beige round compact behind and to the right, approximately the same apparent diameter as the color corrector. Let its lower-left edge sit slightly behind the blue compact's upper-right lid area, while preserving the complete circular silhouette and printed physical brand mark.\n- Place the concealer along the right side of the cluster, leaning inward about 10–14 degrees so it visually points toward the center. Its lower end should touch the same surface plane as the compacts rather than float. Keep its glossy black cap and full container visible.\n- Build a compact triangular silhouette: beige compact at upper-right, color corrector at upper-left, open blue compact at lower-center, concealer forming the right diagonal edge.\n- Keep deliberate but narrow breathing gaps of approximately 12–24 px between major silhouettes, with only two restrained overlaps to show depth.\n- Give all four products one shared grounding treatment: consistent upper-left lighting, soft contact shadows falling lower-right, subtle reflected mint light, and one shared pale translucent acrylic shadow beneath the cluster. No separate floating shadows.\n- Keep the product group entirely below the subtitle and away from the offer badge, footer copy, and CTA. Do not cover any text.\n\nAbsolute preservation:\n- Preserve each product's exact packaging geometry, color, material, existing physical THE SAEM print, and recognizable identity.\n- Preserve the pale mint-lime and milky-white summer background, watery caustic light, silver and lime decorative accents, headline, subtitle, silver discount badge, footer copy, CTA, typography, colors, exact spelling, positions, and square 1:1 crop.\n- Preserve these exact advertising texts, each once: “THE saem”, “여름에도 커버력은 그대로”, “더샘 베이스 메이크업 최대 28%”, “UP TO 28%”, “6일 특가 · 선착순 증정”, “에이블리 단독 혜택 →”.\n\nDo not alter any non-product-layout element. Do not add or remove products, text, logos, badges, decorations, people, hands, models, flowers, fruit, ice, leaves, or water splash. Avoid warped circular cases, merged products, duplicated lids, impossible overlaps, inconsistent perspective, floating products, oversized concealer, thick white cutout borders, cropped packaging, illegible copy, pseudo-text, watermark, illustration, cartoon, or obvious CGI."
+    },
+    {
+      "id": "the-saem-orbital-sale-promo-final-v2",
+      "title": "더샘 올영세일 오비탈 프로모션 — 그린 코랄 최종",
+      "category": "뷰티 이커머스",
+      "product": "더샘 트리플 팟 컨실러",
+      "aspectRatio": "1:1",
+      "version": "final-v2",
+      "logoSpace": "좌상단",
+      "tags": [
+        "최종 자산",
+        "성공 프롬프트",
+        "더샘",
+        "올영세일",
+        "#82DC28",
+        "#FF7878",
+        "추상 그라데이션",
+        "오비탈 에디토리얼"
+      ],
+      "summary": "투명 아크릴 오비탈 구도에 #82DC28 애플그린과 #FF7878 코랄핑크를 화이트로 희석한 추상 그라데이션을 적용한 확정 프로모션.",
+      "useCommonHeader": false,
+      "isConfirmed": true,
+      "derivedFrom": "the-saem-summer-cover-ad-base-v1",
+      "sourceExperimentId": "exp-20260901-181658-the-saem-green-coral-gradient-prompt-6",
+      "confirmedIteration": 6,
+      "previewImage": "outputs/the-saem-summer-cover-ad-base-v1/2026-09-01/the-saem-summer-cover-ad-base-v1-prompt-6.png",
+      "source": {
+        "title": "사용자 확정 더샘 오비탈 프로모션",
+        "capturedAt": "2026-09-01",
+        "model": "built-in image_gen",
+        "settings": "정사각형 1:1, 참조 이미지 배경 편집"
+      },
+      "promptText": "Use case: lighting-weather\nAsset type: finished square 1:1 Korean beauty retail sale key visual, prompt 6\nInput image: Image 1 is the sole edit target and absolute authority for the products, acrylic ring, chrome orbit lines, typography, copy, badge, layout, scale, perspective, lighting structure and crop.\n\nSingle controlled change: change ONLY the background palette and the corresponding subtle ambient reflections.\n\nRequired background palette:\n- Build an airy abstract gradient from the exact anchor colors #82DC28 and #FF7878, both heavily diluted with milky white so the overall result remains pale, luminous, sophisticated and low saturation.\n- Use #82DC28 as a fresh light apple-green/lime glow, not neon and not a flat solid field.\n- Use #FF7878 as a soft light coral-pink glow, not red and not a dominant saturated block.\n- Keep roughly 55–65% of the background clean milky white negative space.\n- Let pale #82DC28-tinted light enter mainly from the upper-right and lower-left; let pale #FF7878-tinted light appear mainly in the upper-left edge and lower-right edge. Blend them through broad translucent curved bands, soft glass-like arcs and diffused overlapping color clouds.\n- Where green and coral approach each other, keep a white buffer or a very soft warm neutral transition. Avoid muddy brown, gray or yellow mixing.\n- Preserve the abstract seamless studio character: no recognizable leaves, flowers, waves, clouds, landscape or room.\n- Keep the frosted-glass floor at the bottom, with only restrained pale green, pale coral and neutral-white reflections.\n- The cobalt-blue headline and navy copy must remain crisp and highly legible.\n\nAmbient reflection correction:\n- Add only faint #82DC28-derived green and #FF7878-derived coral highlights to the transparent acrylic ring, chrome orbital lines, product case edges and floor, consistent with the new background.\n- Keep reflections subtle and mostly white; do not cast green or coral color over the cosmetic formulas.\n- Preserve the natural peach, beige, olive, yellow and lavender cream colors and the black cases exactly.\n\nAbsolute preservation:\nKeep exactly five THE SAEM triple-pot products with the same positions, sizes, internal three-way divider structures, product colors, black circular cases, transparent lids, shadows and perspective. Preserve the large translucent acrylic ring, two thin chrome orbit lines, chrome star points, discount badge and every text element in exactly the same position, size, spelling, color and hierarchy.\nPreserve each copy exactly once: “THE SAEM”, “메이크업 아티스트 치트키”, “올영세일”, “더샘 트리플 팟 컨실러”, “7일 특가”, “SALE 15%”, “8.30–9.5”, “1위 컨실러 7일 특가 →”. Preserve square 1:1 crop.\n\nDo not alter the product layout, typography, copy, logo, discount, date, CTA, ring shape, orbit geometry, product count or camera. Do not add any text, objects, plants, leaves, flowers, fruit, clouds, water, bubbles, people, hands, model, machine, platform, pseudo-text or watermark. Avoid saturated lime, neon green, harsh red, dominant pink, muddy blends, dark background, flat two-color split, hard color bands, illustration, cartoon or obvious CGI.",
+      "spec": {
+        "type": "한국 뷰티 리테일 오비탈 프로모션 최종 배너",
+        "style": "투명 아크릴 링과 크롬 궤도를 활용한 Y2K-퓨처리스트 K-뷰티 에디토리얼, 사실적인 트리플 팟 제품 사진, 넓은 화이트 여백과 저채도 그린·코랄 광",
+        "canvas": {
+          "aspect_ratio": "1:1",
+          "background": "#82DC28 애플그린과 #FF7878 코랄핑크를 밀키 화이트에 충분히 희석한 저채도 추상 곡선 그라데이션"
+        },
+        "reference_note": "프롬프트 5 결과 이미지의 제품 형상, 아크릴 링, 크롬 궤도, 타이포그래피, 카피, 배치, 비율과 원근을 절대 기준으로 유지한다.",
+        "scale_note": "트리플 팟 제품 5개는 기존 오비탈 리듬과 전후 크기 차를 유지하며, 전경 히어로 제품이 가장 크고 나머지는 깊이에 따라 자연스럽게 작아져야 한다.",
+        "labels": {
+          "count": 8,
+          "list": [
+            "THE SAEM",
+            "메이크업 아티스트 치트키",
+            "올영세일",
+            "더샘 트리플 팟 컨실러",
+            "7일 특가",
+            "SALE 15%",
+            "8.30–9.5",
+            "1위 컨실러 7일 특가 →"
+          ]
+        },
+        "design": "중앙과 좌측의 55~65%는 밀키 화이트 여백으로 유지하고, #82DC28 계열의 연한 애플그린 빛은 우상단과 좌하단에서, #FF7878 계열의 연한 코랄핑크 빛은 좌상단과 우하단에서 번지게 한다. 넓은 반투명 곡선 밴드와 유리광 아크로 연결하되 두 색 사이에는 흰색 완충 영역을 둔다. 기존 투명 아크릴 링, 크롬 궤도, 제품 5개와 비대칭 블루 타이포 구조는 그대로 유지한다.",
+        "negative": "제품·문구·구도 변경, 제품색 오염, 탁한 혼색, 네온 그린, 강한 빨강, 과도한 핑크, 단순 2색 분할, 딱딱한 색 띠, 추가 텍스트·오브젝트·인물·손·식물·워터마크 금지.",
+        "text_rendering": "지정된 8개 문구를 각각 정확히 한 번 표시하고 한글, 영문, 숫자, 퍼센트, 날짜 구분 기호와 화살표를 그대로 보존한다."
+      },
+      "composedPrompt": "Use case: lighting-weather\nAsset type: finished square 1:1 Korean beauty retail sale key visual, prompt 6\nInput image: Image 1 is the sole edit target and absolute authority for the products, acrylic ring, chrome orbit lines, typography, copy, badge, layout, scale, perspective, lighting structure and crop.\n\nSingle controlled change: change ONLY the background palette and the corresponding subtle ambient reflections.\n\nRequired background palette:\n- Build an airy abstract gradient from the exact anchor colors #82DC28 and #FF7878, both heavily diluted with milky white so the overall result remains pale, luminous, sophisticated and low saturation.\n- Use #82DC28 as a fresh light apple-green/lime glow, not neon and not a flat solid field.\n- Use #FF7878 as a soft light coral-pink glow, not red and not a dominant saturated block.\n- Keep roughly 55–65% of the background clean milky white negative space.\n- Let pale #82DC28-tinted light enter mainly from the upper-right and lower-left; let pale #FF7878-tinted light appear mainly in the upper-left edge and lower-right edge. Blend them through broad translucent curved bands, soft glass-like arcs and diffused overlapping color clouds.\n- Where green and coral approach each other, keep a white buffer or a very soft warm neutral transition. Avoid muddy brown, gray or yellow mixing.\n- Preserve the abstract seamless studio character: no recognizable leaves, flowers, waves, clouds, landscape or room.\n- Keep the frosted-glass floor at the bottom, with only restrained pale green, pale coral and neutral-white reflections.\n- The cobalt-blue headline and navy copy must remain crisp and highly legible.\n\nAmbient reflection correction:\n- Add only faint #82DC28-derived green and #FF7878-derived coral highlights to the transparent acrylic ring, chrome orbital lines, product case edges and floor, consistent with the new background.\n- Keep reflections subtle and mostly white; do not cast green or coral color over the cosmetic formulas.\n- Preserve the natural peach, beige, olive, yellow and lavender cream colors and the black cases exactly.\n\nAbsolute preservation:\nKeep exactly five THE SAEM triple-pot products with the same positions, sizes, internal three-way divider structures, product colors, black circular cases, transparent lids, shadows and perspective. Preserve the large translucent acrylic ring, two thin chrome orbit lines, chrome star points, discount badge and every text element in exactly the same position, size, spelling, color and hierarchy.\nPreserve each copy exactly once: “THE SAEM”, “메이크업 아티스트 치트키”, “올영세일”, “더샘 트리플 팟 컨실러”, “7일 특가”, “SALE 15%”, “8.30–9.5”, “1위 컨실러 7일 특가 →”. Preserve square 1:1 crop.\n\nDo not alter the product layout, typography, copy, logo, discount, date, CTA, ring shape, orbit geometry, product count or camera. Do not add any text, objects, plants, leaves, flowers, fruit, clouds, water, bubbles, people, hands, model, machine, platform, pseudo-text or watermark. Avoid saturated lime, neon green, harsh red, dominant pink, muddy blends, dark background, flat two-color split, hard color bands, illustration, cartoon or obvious CGI."
+    },
+    {
+      "id": "the-saem-silicone-zero-primer-promo-final-v1",
+      "title": "더샘 실리콘 ZERO 프라이머 프로모션 — 최종",
+      "category": "뷰티 이커머스",
+      "product": "더샘 프라이머·컨실러",
+      "aspectRatio": "4:5",
+      "version": "final-v1",
+      "logoSpace": "우측 제품 표면",
+      "tags": [
+        "최종 자산",
+        "성공 프롬프트",
+        "더샘",
+        "프라이머",
+        "실리콘 ZERO",
+        "K-뷰티",
+        "인물 제품 합성",
+        "세로 광고"
+      ],
+      "summary": "12회의 실험을 통해 레퍼런스 기반 인물·제품 품질, 피치베이지 제품 구도, 2단 하단 카피와 상단 효능 문구의 크기 위계를 확정한 더샘 프라이머 프로모션 최종본.",
+      "useCommonHeader": false,
+      "isConfirmed": true,
+      "derivedFrom": "the-saem-primer-promo-base-v1",
+      "sourceExperimentId": "exp-20260901-182010-the-saem-primer-prompt-12",
+      "confirmedIteration": 12,
+      "previewImage": "outputs/the-saem-primer-promo-base-v1/2026-09-01/the-saem-primer-promo-base-v1-prompt-12.png",
+      "source": {
+        "title": "사용자 확정 더샘 실리콘 ZERO 프라이머 프로모션",
+        "capturedAt": "2026-09-01",
+        "model": "built-in image_gen",
+        "settings": "세로 4:5, 인물·제품 레퍼런스 기반 이미지 편집"
+      },
+      "promptText": "Use case: text-localization\nAsset type: finished vertical 4:5 Korean cosmetics advertising poster, prompt 12\nInput image: the attached image is the sole edit target and absolute visual authority.\n\nSingle controlled edit: Change only the relative font sizes of the two word groups in the second upper-right line ‘매끈한 피부 연출’. Make ‘매끈한’ approximately 18% smaller than its current size. Make ‘피부 연출’ approximately 18% larger than its current size, so the pale-blue benefit phrase becomes the dominant emphasis. Keep both word groups on the same second-line baseline with visually balanced spacing. Preserve the exact text and spacing ‘매끈한 피부 연출’. Keep ‘매끈한’ warm white and ‘피부 연출’ pale light blue. Preserve the first upper-right line ‘보정한 듯한’ exactly as it is, including its size, color and position. Preserve the staggered relationship and fit the resized second line entirely within the upper-right negative space without touching the portrait, canvas edges or product.\n\nPixel-preservation priority: The reference-based natural and clean image quality from the edit target must remain unchanged. Do not regenerate, retouch, reinterpret, blur, sharpen, recolor or move the portrait, face, skin, eyes, hair, earrings, hand, garment, held compact, background gradient, large right-side product, physical branding, translucent materials, diagonal swatches, shadows or lighting. Preserve their existing clean high-resolution photographic detail and smooth natural tonal transitions exactly.\n\nPreserve the bottom copy exactly as shown and exactly once: ‘실리콘 ZERO로 완성하는’ and ‘막힘 없는 베이스’. Keep its font size, placement, shadow and colors unchanged, including pink-beige ZERO. No other modification. No new text, duplicate text, misspelling, pseudo-text, altered logo, watermark, added object, texture, noise, mottling, banding, illustration or CGI effect.",
+      "spec": {
+        "type": "한국 화장품 프라이머 상업용 프로모션 최종 배너",
+        "style": "깨끗한 고해상도 K-뷰티 인물 사진과 피치베이지 제품 비주얼을 결합한 프리미엄 세로 광고",
+        "canvas": {
+          "aspect_ratio": "4:5",
+          "background": "아이보리에서 피치베이지로 이어지는 매끈한 저주파 스튜디오 그라데이션"
+        },
+        "reference_note": "고해상도 인물 레퍼런스는 얼굴·피부·머리카락·손·의상·손에 든 제품의 절대 기준이며, 제품 레퍼런스는 우측 열린 원형 제품·반사형 뚜껑·투명 테두리·대각선 제형 스트로크의 절대 기준이다.",
+        "scale_note": "인물은 좌측과 중앙의 주 피사체, 열린 제품과 뚜껑은 우측 중앙의 보조 피사체로 유지한다. 상단 문구와 하단 카피는 인물과 제품에 닿지 않는 안전 여백을 확보한다.",
+        "labels": {
+          "count": 4,
+          "list": [
+            "보정한 듯한",
+            "매끈한 피부 연출",
+            "실리콘 ZERO로 완성하는",
+            "막힘 없는 베이스"
+          ]
+        },
+        "design": "상단 우측에 ‘보정한 듯한’을 웜 화이트로, 그 아래 ‘매끈한’을 작게 웜 화이트로, ‘피부 연출’을 크게 연한 파랑으로 배치한다. 하단에는 ‘실리콘 ZERO로 완성하는’과 ‘막힘 없는 베이스’를 굵은 2단 카피로 두고 ZERO만 핑크베이지로 강조한다. 우측 중앙에는 열린 피치베이지 제품, 겹친 반사형 뚜껑과 대각선 제형 스트로크를 배치한다.",
+        "negative": "인물 정체성·포즈·제품 구조·배치 변경, 추가 인물·제품·문구·로고·의사 문자·워터마크, 얼굴·손 왜곡, 원형 패키지 왜곡, 얼룩·밴딩·반복 미세 패턴·미로형 아티팩트·과도한 에어브러싱·CGI 표현 금지.",
+        "text_rendering": "지정된 4개 광고 문구를 각각 정확히 한 번 표시한다. ‘피부 연출’은 연한 파랑, ‘ZERO’는 핑크베이지, 나머지 카피는 웜 화이트로 유지한다. 제품 표면의 물리적 브랜드 인쇄만 레퍼런스에 따라 허용한다."
+      },
+      "composedPrompt": "Use case: text-localization\nAsset type: finished vertical 4:5 Korean cosmetics advertising poster, prompt 12\nInput image: the attached image is the sole edit target and absolute visual authority.\n\nSingle controlled edit: Change only the relative font sizes of the two word groups in the second upper-right line ‘매끈한 피부 연출’. Make ‘매끈한’ approximately 18% smaller than its current size. Make ‘피부 연출’ approximately 18% larger than its current size, so the pale-blue benefit phrase becomes the dominant emphasis. Keep both word groups on the same second-line baseline with visually balanced spacing. Preserve the exact text and spacing ‘매끈한 피부 연출’. Keep ‘매끈한’ warm white and ‘피부 연출’ pale light blue. Preserve the first upper-right line ‘보정한 듯한’ exactly as it is, including its size, color and position. Preserve the staggered relationship and fit the resized second line entirely within the upper-right negative space without touching the portrait, canvas edges or product.\n\nPixel-preservation priority: The reference-based natural and clean image quality from the edit target must remain unchanged. Do not regenerate, retouch, reinterpret, blur, sharpen, recolor or move the portrait, face, skin, eyes, hair, earrings, hand, garment, held compact, background gradient, large right-side product, physical branding, translucent materials, diagonal swatches, shadows or lighting. Preserve their existing clean high-resolution photographic detail and smooth natural tonal transitions exactly.\n\nPreserve the bottom copy exactly as shown and exactly once: ‘실리콘 ZERO로 완성하는’ and ‘막힘 없는 베이스’. Keep its font size, placement, shadow and colors unchanged, including pink-beige ZERO. No other modification. No new text, duplicate text, misspelling, pseudo-text, altered logo, watermark, added object, texture, noise, mottling, banding, illustration or CGI effect."
+    },
+    {
+      "id": "the-saem-skin-prep-summer-sale-final-v1",
+      "title": "더샘 스킨 프렙 여름 프로모션 — 최종",
+      "category": "뷰티 이커머스",
+      "product": "더샘 스킨 프렙 밸런싱 밀크 로션",
+      "aspectRatio": "4:5",
+      "version": "final-v1",
+      "logoSpace": "좌상단 올영세일·우상단 THE saem",
+      "tags": [
+        "최종 자산",
+        "성공 프롬프트",
+        "더샘",
+        "스킨 프렙",
+        "밀크 로션",
+        "올영세일",
+        "K-뷰티",
+        "인물 제품 합성",
+        "블루그레이 가격",
+        "세로 광고"
+      ],
+      "summary": "8회의 실험을 통해 고해상도 인물 원본을 좌측, 단일 제품 원본을 우측에 배치하고 밝은 블루그레이 가격 CTA와 깨끗한 사진 합성 품질을 확정한 더샘 여름 프로모션 최종본.",
+      "useCommonHeader": false,
+      "isConfirmed": true,
+      "derivedFrom": "the-saem-skin-prep-summer-sale-base-v1",
+      "sourceExperimentId": "exp-20260902-162302-the-saem-skin-prep-prompt-8",
+      "confirmedIteration": 8,
+      "previewImage": "outputs/the-saem-skin-prep-summer-sale-base-v1/2026-09-02/the-saem-skin-prep-summer-sale-base-v1-prompt-8.png",
+      "source": {
+        "title": "사용자 확정 더샘 스킨 프렙 여름 프로모션",
+        "capturedAt": "2026-09-02",
+        "model": "built-in image_gen",
+        "settings": "세로 4:5, 좌측 인물 원본·우측 제품 원본 기반 합성"
+      },
+      "promptText": "Use case: compositing. Asset type: finished vertical 4:5 Korean beauty summer promotion. 광고 레이아웃 이미지를 편집 대상으로 사용한다. 첫 번째 고해상도 인물 원본을 좌측에 배치하고 얼굴·표정·시선·피부·머리카락·의상·손·반지·손에 든 제품을 원본과 동일하게 유지한다. 두 번째 고해상도 제품 원본의 세워진 단일 용기를 우측 연하늘색 영역에 배치하고 용기 실루엣·비율·펌프 구조·밀키블루 소재·곡선형 흰 제형·파란색 물리적 인쇄를 유지한다. 제품 원본의 눕힌 추가 용기·바닥·원래 배경은 제외한다. 좌상단 ‘올영세일 8.30–9.5’, 우상단 ‘THE saem’, ‘이거 하나면’, ‘사계절 내내’, ‘완벽한 피부 화장 완성’, 하단 ‘더샘 스킨 프렙 밸런싱 밀크 로션’과 밝은 블루그레이 입체 글자 ‘9천원대’를 각각 정확히 한 번 유지한다. 좌측 버터베이지·우측 연하늘색 곡선 분할과 딥블루 푸터를 유지한다. 두 원본이 광고 안에 정밀하게 합성된 것처럼 깨끗하고 선명한 고해상도 사진 품질로 표현하며 얼룩·반복 미세 패턴·미로형 무늬·밴딩·헤일로·의사 문자를 금지한다. 추가 문구·로고·제품·인물·워터마크를 넣지 않는다.",
+      "spec": {
+        "type": "한국 뷰티 브랜드 여름 리테일 프로모션 최종 배너",
+        "style": "버터베이지·연하늘색·딥블루의 깨끗한 K-뷰티 리테일 디자인과 고해상도 인물·제품 원본을 결합한 프리미엄 사진 합성",
+        "canvas": {
+          "aspect_ratio": "4:5",
+          "background": "좌측 따뜻한 버터베이지와 우측 연하늘색이 부드러운 곡선으로 나뉘는 매끈한 저노이즈 배경"
+        },
+        "reference_note": "첫 번째 인물 원본은 좌측 인물의 정체성·얼굴·자세·피부·머리카락·의상·손·반지·손에 든 제품의 절대 기준이다. 두 번째 제품 원본은 우측 단일 용기의 형상·비율·펌프·소재·곡선형 흰 제형·물리적 인쇄의 절대 기준이다.",
+        "scale_note": "인물은 좌측 하단과 중앙의 주 피사체로 얼굴과 손에 든 제품이 크게 보이게 한다. 세워진 단일 히어로 제품은 우측 연하늘색 영역에서 상단 로고와 하단 푸터에 닿지 않도록 크게 배치한다.",
+        "labels": {
+          "count": 8,
+          "list": [
+            "올영세일",
+            "8.30–9.5",
+            "THE saem",
+            "이거 하나면",
+            "사계절 내내",
+            "완벽한 피부 화장 완성",
+            "더샘 스킨 프렙 밸런싱 밀크 로션",
+            "9천원대"
+          ]
+        },
+        "design": "좌상단에 공식 올영세일 날짜 엠블럼, 우상단에 검정 THE SAEM 워드마크를 둔다. 좌측 상단에는 딥블루 효능 헤드라인, 좌측 하단에는 인물 원본, 우측에는 제품 원본의 펌프 구조와 흰 제형이 포함된 단일 세로 제품을 배치한다. 최하단 딥블루 라운드 푸터에는 흰 제품명과 밝은 아이스·클라우드 블루그레이 그라데이션의 입체 ‘9천원대’를 배치한다. 가격 글자의 앞면은 얼룩 없이 매끈하고 그림자는 외곽 아래·오른쪽에만 둔다.",
+        "negative": "추가 인물·제품·문구·가격·할인율·로고·배지·워터마크, 제품 원본의 눕힌 추가 용기·원래 바닥·배경, 얼굴·손가락 왜곡, 플라스틱 피부, 용기 변형·라벨 오탈자, 얼룩·반복 미세 패턴·미로형 무늬·의사 문자·밴딩·헤일로·고스팅·거친 누끼 경계·저해상도·일러스트·CGI 금지.",
+        "text_rendering": "지정된 8개 광고 문구를 각각 정확히 한 번 표시하고 철자·숫자·날짜를 보존한다. 제품 표면의 실제 물리적 인쇄만 레퍼런스에 따라 허용한다. ‘9천원대’는 밝고 채도 낮은 블루그레이의 매끈한 수직 그라데이션으로 표현한다."
+      },
+      "composedPrompt": "Use case: compositing. Asset type: finished vertical 4:5 Korean beauty summer promotion. 광고 레이아웃 이미지를 편집 대상으로 사용한다. 첫 번째 고해상도 인물 원본을 좌측에 배치하고 얼굴·표정·시선·피부·머리카락·의상·손·반지·손에 든 제품을 원본과 동일하게 유지한다. 두 번째 고해상도 제품 원본의 세워진 단일 용기를 우측 연하늘색 영역에 배치하고 용기 실루엣·비율·펌프 구조·밀키블루 소재·곡선형 흰 제형·파란색 물리적 인쇄를 유지한다. 제품 원본의 눕힌 추가 용기·바닥·원래 배경은 제외한다. 좌상단 ‘올영세일 8.30–9.5’, 우상단 ‘THE saem’, ‘이거 하나면’, ‘사계절 내내’, ‘완벽한 피부 화장 완성’, 하단 ‘더샘 스킨 프렙 밸런싱 밀크 로션’과 밝은 블루그레이 입체 글자 ‘9천원대’를 각각 정확히 한 번 유지한다. 좌측 버터베이지·우측 연하늘색 곡선 분할과 딥블루 푸터를 유지한다. 두 원본이 광고 안에 정밀하게 합성된 것처럼 깨끗하고 선명한 고해상도 사진 품질로 표현하며 얼룩·반복 미세 패턴·미로형 무늬·밴딩·헤일로·의사 문자를 금지한다. 추가 문구·로고·제품·인물·워터마크를 넣지 않는다."
+    },
+    {
+      "id": "jp-family-humidifier-lifestyle-clean-final-v1",
+      "title": "일본 가족용 가습기 라이프스타일 광고 — 클린 최종본",
+      "category": "일본 생활가전",
+      "product": "스탠드형 가족용 프리미엄 가습기",
+      "aspectRatio": "4:5",
+      "version": "final-v1",
+      "logoSpace": "제품 전면의 작은 물리적 로고만 유지",
+      "isConfirmed": true,
+      "derivedFrom": "jp-family-humidifier-lifestyle-base-v1",
+      "sourceExperimentId": "exp-20260903-155927-jp-family-humidifier-prompt-10",
+      "confirmedIteration": 10,
+      "previewImage": "outputs/jp-family-humidifier-lifestyle-base-v1/2026-09-03/jp-family-humidifier-lifestyle-base-v1-prompt-10.png",
+      "tags": [
+        "일본 광고",
+        "가습기",
+        "가족",
+        "아이",
+        "골든 리트리버",
+        "스탠드형 제품",
+        "네 발 베이스",
+        "흰색 그라데이션",
+        "클린 표면",
+        "저주파 질감"
+      ],
+      "summary": "어머니·아이·골든 리트리버가 함께하는 따뜻한 원목 거실에서 의사 설계 가습기의 가족 친화적 사용성을 전달하고, 흰색 가독성 그라데이션과 저미세질감 렌더링으로 표면 아티팩트를 억제한 최종 확정 프롬프트.",
+      "useCommonHeader": false,
+      "source": {
+        "title": "사용자 확정 프롬프트 10 기록",
+        "capturedAt": "2026-09-03",
+        "model": "built-in image_gen",
+        "settings": "세로 4:5, 표면 클린업, 네 발 십자형 베이스, 미스트 없음"
+      },
+      "promptText": "Use case: precise-object-edit — surface cleanup only. Asset type: Japanese premium family-safe humidifier lifestyle advertisement, vertical 4:5, prompt 10 record. Image 1 is the sole edit target and authority for layout, content, identity, typography, product design, lighting and color. Reconstruct the identical image with clean, simple, low-microtexture photographic rendering. Eliminate blotchy, embossed, maze-like and worm-like artifacts; favor smooth broad tonal forms and sparse natural detail. Preserve the dog pose but render broad soft golden fur masses with restrained natural strands and no repeated curls. Preserve the rug as a simple low-pile solid cream wool surface without loops, glyphs, swirls or raised motifs. Preserve garments as plain ivory cotton with extremely fine unresolved weave and no decorative cable pattern. Use sparse broad low-contrast wood grain with no fingerprint swirls or worm marks. Use smooth curtain folds, natural skin, clean hair locks and perfectly smooth matte product plastic. Keep sharp focal edges without global oversharpening. Preserve the exact 4:5 crop, family identities and poses, dog, book, room, lighting, white readability gradient, no-mist condition and exactly four equal-length base arms at 90-degree intervals. Render exactly once: ‘家族のそばに置くなら、医師設計の加湿器。’, ‘うるおいだけでなく、清潔に使い続けやすいことまで考えました。’, ‘清潔なミストで、心地よい毎日を。’. No changed objects, faces, anatomy, product, feet, copy, layout, mist, pseudo-text, watermark, blur, low resolution, denoise smearing, painterly surface, CGI sheen, oversharpening, mottling, stains, repeated pattern, tiling, maze lines, worm lines, cellular noise, swirls, embossed texture or ornamental fabric.",
+      "spec": {
+        "type": "일본 가족용 스탠드형 가습기 라이프스타일 상업 광고",
+        "style": "따뜻한 원목 거실과 오후 자연광을 사용한 깨끗하고 저미세질감의 프리미엄 일본 생활가전 카탈로그 사진",
+        "canvas": {
+          "aspect_ratio": "4:5",
+          "background": "밝은 오크 바닥, 허니베이지 원목 벽, 부드러운 아이보리 커튼과 크림색 저파일 러그가 있는 정돈된 거실"
+        },
+        "reference_note": "직전 확정 이미지의 가족·강아지·제품·카피·조명·배치를 절대 기준으로 유지하고, 표면은 큰 명암과 제한된 자연 디테일만 사용해 깨끗하게 재구성한다.",
+        "scale_note": "어머니와 아이는 중앙 좌측 중경, 골든 리트리버는 좌측 전경, 스탠드형 가습기는 우측 전경에 둔다. 제품 하단에는 실제 길이가 동일한 직선형 네 발을 90도 간격으로 배치한다.",
+        "labels": {
+          "count": 3,
+          "list": [
+            "家族のそばに置くなら、医師設計の加湿器。",
+            "うるおいだけでなく、清潔に使い続けやすいことまで考えました。",
+            "清潔なミストで、心地よい毎日を。"
+          ]
+        },
+        "design": "좌측 상단의 메인·서브 카피 뒤에는 경계 없는 흰색에서 투명으로 사라지는 그라데이션을 커튼 빛처럼 적용한다. 우측에는 미스트 없이 매끈한 큐브형 상부와 가는 중앙 기둥, 대칭 네 발 베이스의 가습기를 배치한다. 러그·옷·털·나무는 미세정보를 억제하고 넓고 부드러운 명암으로 표현한다.",
+        "negative": "미스트·증기·연기·안개, 추가 인물·동물·제품·소품, 얼굴·손·강아지·제품 왜곡, 세 발·다섯 발·길이가 다른 받침, 의사 문자·중복 카피·추가 로고·워터마크, 얼룩·반점·미로형·지렁이형·세포형·지문형·양각형·타일형·반복형 미세무늬, 과도한 샤픈·번짐·저해상도·페인터리·CGI 금지.",
+        "text_rendering": "지정한 일본어 3개 문구를 각각 정확히 한 번 표시한다. 좌측 두 문구는 진한 차콜색으로 유지하고 뒤에만 부드러운 흰색 그라데이션을 적용하며, 우측 문구는 흰색으로 유지한다. 다른 카피·가격·날짜·배지·각주를 추가하지 않는다."
+      },
+      "composedPrompt": "Use case: precise-object-edit — surface cleanup only. Asset type: Japanese premium family-safe humidifier lifestyle advertisement, vertical 4:5, prompt 10 record. Image 1 is the sole edit target and authority for layout, content, identity, typography, product design, lighting and color. Reconstruct the identical image with clean, simple, low-microtexture photographic rendering. Eliminate blotchy, embossed, maze-like and worm-like artifacts; favor smooth broad tonal forms and sparse natural detail. Preserve the dog pose but render broad soft golden fur masses with restrained natural strands and no repeated curls. Preserve the rug as a simple low-pile solid cream wool surface without loops, glyphs, swirls or raised motifs. Preserve garments as plain ivory cotton with extremely fine unresolved weave and no decorative cable pattern. Use sparse broad low-contrast wood grain with no fingerprint swirls or worm marks. Use smooth curtain folds, natural skin, clean hair locks and perfectly smooth matte product plastic. Keep sharp focal edges without global oversharpening. Preserve the exact 4:5 crop, family identities and poses, dog, book, room, lighting, white readability gradient, no-mist condition and exactly four equal-length base arms at 90-degree intervals. Render exactly once: ‘家族のそばに置くなら、医師設計の加湿器。’, ‘うるおいだけでなく、清潔に使い続けやすいことまで考えました。’, ‘清潔なミストで、心地よい毎日を。’. No changed objects, faces, anatomy, product, feet, copy, layout, mist, pseudo-text, watermark, blur, low resolution, denoise smearing, painterly surface, CGI sheen, oversharpening, mottling, stains, repeated pattern, tiling, maze lines, worm lines, cellular noise, swirls, embossed texture or ornamental fabric."
+    },
+    {
+      "id": "evian-alpine-sunrise-product-ad-final-v1",
+      "title": "에비앙 알프스 일출 생수 광고 — 최종",
+      "category": "음료·FMCG",
+      "product": "evian 500ml PET 생수",
+      "aspectRatio": "4:5",
+      "version": "final-v1",
+      "logoSpace": "병 라벨 중앙의 evian 물리적 브랜드 인쇄",
+      "tags": [
+        "최종 자산",
+        "성공 프롬프트",
+        "프리미엄 생수",
+        "evian",
+        "제품 사진",
+        "알프스",
+        "일출 역광",
+        "물방울",
+        "시네마틱",
+        "세로 광고"
+      ],
+      "summary": "젖은 검은 바위 위의 투명한 evian 500ml 병을 차가운 알프스 블루와 따뜻한 일출 골드의 강한 대비로 표현한 프리미엄 4:5 제품 광고 최종 프롬프트.",
+      "useCommonHeader": false,
+      "isConfirmed": true,
+      "derivedFrom": "evian-alpine-sunrise-product-ad-base-v1",
+      "sourceExperimentId": "exp-20260915-163912-evian-alpine-sunrise-final",
+      "confirmedIteration": 1,
+      "previewImage": "outputs/evian-alpine-sunrise-product-ad-base-v1/2026-09-15/evian-alpine-sunrise-product-ad-final-v1.png",
+      "source": {
+        "title": "사용자 제공 성공 이미지 및 확정 프롬프트",
+        "capturedAt": "2026-09-15",
+        "model": "ChatGPT 이미지 생성 — 세부 모델 미기록",
+        "settings": "세로 4:5, 1122×1402 PNG, 사용자 제공 완성 이미지"
+      },
+      "promptText": "프리미엄 생수 브랜드의 세로형 4:5 제품 광고 사진.\n\n투명한 500ml PET 생수병 한 병을 화면 정중앙에 세워 배치한다. 병 전체와 파란색 병뚜껑이 완전히 보이며, 투명한 병 표면에는 크고 작은 차가운 물방울과 결로가 자연스럽게 맺혀 있다. 라벨에는 푸른빛과 흰색의 프랑스 알프스 산맥 일러스트가 겹겹이 표현되어 있다.\n\n검고 젖은 바위 위에 병을 똑바로 세운다. 바위 표면에는 얕은 물과 반사가 있으며, 금빛 역광이 젖은 굴곡을 따라 반짝인다. 배경은 깊고 어두운 네이비블루 산악 풍경으로 처리하고 얕은 심도로 강하게 흐린다.\n\n화면 왼쪽 상단 뒤쪽에서 강렬하고 따뜻한 일출빛이 비스듬히 들어온다. 병의 왼쪽 윤곽과 물방울 가장자리에 금빛 림라이트와 작은 스파클 하이라이트가 생기도록 한다. 투명한 물과 병 내부는 밝고 깨끗하게 빛나며, 차가운 블루 톤과 따뜻한 골드 톤이 극적으로 대비된다.\n\n고급 상업 제품 사진, 포토리얼리즘, 초고해상도, 선명한 병과 라벨, 사실적인 투명 플라스틱과 물방울, 시네마틱 조명, 높은 명암 대비, 절제된 HDR, 낮은 카메라 높이의 정면 촬영, 망원 제품 렌즈, 얕은 피사계 심도, 부드러운 보케.\n\n라벨 텍스트를 정확히 한 번씩 선명하게 표시:\n“evian”\n“NATURAL SPRING WATER”\n“FROM THE FRENCH ALPS”\n“500 ML”\n\n제외: 사람, 손, 여러 개의 병, 컵, 얼음 조각, 추가 제품, 추가 문구, 잘못된 철자, 변형된 로고, 흐린 라벨, 찌그러진 병, 과도한 안개, 워터마크, 일러스트·CGI 같은 질감.",
+      "spec": {
+        "type": "프리미엄 생수 브랜드 세로형 상업 제품 광고 사진",
+        "style": "포토리얼리스틱 고급 제품 사진, 시네마틱 일출 역광, 높은 명암 대비와 절제된 HDR, 망원 제품 렌즈와 부드러운 보케",
+        "canvas": {
+          "aspect_ratio": "4:5",
+          "background": "깊고 어두운 네이비블루 알프스 산악 풍경을 얕은 심도로 강하게 흐린 배경"
+        },
+        "reference_note": "투명한 500ml PET 병의 형상, 파란 병뚜껑, 푸른빛·흰색 알프스 산맥 라벨, 물방울과 결로, 정확한 물리적 라벨 인쇄를 제품 정체성의 핵심으로 유지한다.",
+        "scale_note": "병 한 개를 화면 정중앙에 세로로 크게 배치하고 병뚜껑부터 바닥까지 전체 실루엣을 완전히 노출한다. 낮은 카메라 높이의 정면 구도로 젖은 바위 위에 안정적으로 세운다.",
+        "labels": {
+          "count": 4,
+          "list": [
+            "evian",
+            "NATURAL SPRING WATER",
+            "FROM THE FRENCH ALPS",
+            "500 ML"
+          ]
+        },
+        "design": "검고 젖은 바위와 얕은 반사 수면 위 중앙에 투명 병을 세우고, 좌상단 뒤쪽의 강렬한 일출빛으로 병 왼쪽 윤곽과 물방울에 금빛 림라이트와 작은 스파클을 만든다. 병과 물은 깨끗하고 밝게 투과되며 차가운 블루와 따뜻한 골드가 극적으로 대비된다.",
+        "negative": "사람·손·여러 병·컵·얼음 조각·추가 제품·추가 문구·잘못된 철자·변형된 로고·흐린 라벨·찌그러진 병·과도한 안개·워터마크·일러스트·CGI 질감 금지.",
+        "text_rendering": "라벨에 ‘evian’, ‘NATURAL SPRING WATER’, ‘FROM THE FRENCH ALPS’, ‘500 ML’을 각각 정확히 한 번 선명하게 표시하고 다른 문구는 추가하지 않는다."
+      },
+      "composedPrompt": "프리미엄 생수 브랜드의 세로형 4:5 제품 광고 사진.\n\n투명한 500ml PET 생수병 한 병을 화면 정중앙에 세워 배치한다. 병 전체와 파란색 병뚜껑이 완전히 보이며, 투명한 병 표면에는 크고 작은 차가운 물방울과 결로가 자연스럽게 맺혀 있다. 라벨에는 푸른빛과 흰색의 프랑스 알프스 산맥 일러스트가 겹겹이 표현되어 있다.\n\n검고 젖은 바위 위에 병을 똑바로 세운다. 바위 표면에는 얕은 물과 반사가 있으며, 금빛 역광이 젖은 굴곡을 따라 반짝인다. 배경은 깊고 어두운 네이비블루 산악 풍경으로 처리하고 얕은 심도로 강하게 흐린다.\n\n화면 왼쪽 상단 뒤쪽에서 강렬하고 따뜻한 일출빛이 비스듬히 들어온다. 병의 왼쪽 윤곽과 물방울 가장자리에 금빛 림라이트와 작은 스파클 하이라이트가 생기도록 한다. 투명한 물과 병 내부는 밝고 깨끗하게 빛나며, 차가운 블루 톤과 따뜻한 골드 톤이 극적으로 대비된다.\n\n고급 상업 제품 사진, 포토리얼리즘, 초고해상도, 선명한 병과 라벨, 사실적인 투명 플라스틱과 물방울, 시네마틱 조명, 높은 명암 대비, 절제된 HDR, 낮은 카메라 높이의 정면 촬영, 망원 제품 렌즈, 얕은 피사계 심도, 부드러운 보케.\n\n라벨 텍스트를 정확히 한 번씩 선명하게 표시:\n“evian”\n“NATURAL SPRING WATER”\n“FROM THE FRENCH ALPS”\n“500 ML”\n\n제외: 사람, 손, 여러 개의 병, 컵, 얼음 조각, 추가 제품, 추가 문구, 잘못된 철자, 변형된 로고, 흐린 라벨, 찌그러진 병, 과도한 안개, 워터마크, 일러스트·CGI 같은 질감."
+    },
+    {
+      "id": "crispy-chicken-red-editorial-campaign-final-v1",
+      "title": "바삭함 끝판왕 레드 에디토리얼 치킨 광고 — 최종",
+      "category": "푸드 광고",
+      "product": "프라이드치킨 닭다리",
+      "aspectRatio": "4:5",
+      "version": "final-v1",
+      "logoSpace": "해당 없음",
+      "tags": [
+        "최종 자산",
+        "성공 프롬프트",
+        "치킨 광고",
+        "하이엔드 에디토리얼",
+        "하이퍼리얼",
+        "강한 원근감",
+        "레드 캠페인",
+        "대형 한글 타이포"
+      ],
+      "summary": "정면을 응시하는 남성이 바삭한 닭다리를 렌즈 앞으로 건네고, 초대형 아이보리 한글과 크림슨 레드 배경으로 강한 원근감과 식감을 강조한 4:5 치킨 캠페인 최종 프롬프트.",
+      "useCommonHeader": false,
+      "isConfirmed": true,
+      "derivedFrom": "crispy-chicken-editorial-campaign-v1",
+      "sourceExperimentId": "exp-20260915-172917-crispy-chicken-red-editorial-final",
+      "confirmedIteration": 3,
+      "previewImage": "outputs/crispy-chicken-editorial-campaign-v1/2026-09-15/crispy-chicken-red-editorial-campaign-final-v1.png",
+      "source": {
+        "title": "사용자 제공 성공 이미지 및 확정 프롬프트",
+        "capturedAt": "2026-09-15",
+        "model": "ChatGPT 이미지 생성 — 세부 모델 미기록",
+        "settings": "세로 4:5, 1122×1402 PNG, 사용자 제공 완성 이미지"
+      },
+      "promptText": "Use case: ads-marketing\nAsset type: 프리미엄 프라이드치킨 캠페인 키 비주얼\nAspect ratio: 세로형 4:5\n\n강렬한 레드 컬러를 배경으로 한 하이엔드 패션 에디토리얼 스타일의 하이퍼리얼 프라이드치킨 광고.\n\n가상의 젊은 한국인 남성 모델이 화면 정중앙에 서서 카메라를 똑바로 바라본다. 단정한 검은색 테일러드 슈트, 흰색 드레스 셔츠와 검은색 넥타이를 착용한다. 짙은 검은 머리는 자연스럽게 뒤로 넘겼으며, 표정은 자신감 있고 차분한 럭셔리 패션 캠페인 분위기다. 특정 실존 인물이나 유명인을 닮지 않게 한다.\n\n남성이 오른손을 카메라 렌즈 앞으로 곧게 뻗어 프라이드치킨 닭다리 한 개를 관객에게 건넨다. 손은 화면 왼쪽 아래에서 크게 시작하고, 닭다리는 화면 중앙 전경을 대각선으로 가로지른다. 손과 닭다리에 강한 광각 포어쇼트닝을 적용해 닭다리가 얼굴보다 훨씬 크게 보이게 한다. 남성의 얼굴과 정면 시선은 닭다리 뒤에서도 완전히 보여야 한다.\n\n닭다리는 실제 상업 음식 사진처럼 극도로 사실적으로 표현한다. 두껍고 불규칙한 황금빛 크러스트, 크고 작은 바삭한 튀김 조각, 진한 골든 오렌지 컬러, 미세한 후추 입자, 자연스러운 소스와 기름의 윤기, 촉촉한 내부를 암시하는 입체적인 표면. 플라스틱이나 CGI처럼 보이지 않게 한다.\n\n손은 정확한 인체 구조를 유지한다. 다섯 손가락, 자연스러운 관절과 손톱, 설득력 있는 그립으로 닭다리의 뼈 부분을 잡는다. 추가 손가락이나 융합된 손가락이 없어야 한다.\n\n배경은 깊고 풍부한 크림슨 레드 스튜디오 그라데이션이다. 인물과 슈트 가장자리에 선명한 레드 림라이트를 적용한다. 정면의 부드러운 뷰티 라이트로 얼굴을 깨끗하게 밝히고, 닭다리에는 강한 골드 하이라이트를 더해 크러스트의 바삭한 질감을 강조한다. 깊은 블랙과 선명한 레드, 따뜻한 골드의 고대비 팔레트.\n\n남성 뒤에 초대형 아이보리색 한글 타이포그래피를 두 줄로 배치한다.\n\n첫째 줄: “바삭함”\n둘째 줄: “끝판왕”\n\n“바삭함 끝판왕”을 정확히 한 번만 표시한다. 초대형 울트라 볼드 산세리프 한글, 기하학적이고 두꺼운 획, 촘촘한 자간, 평면적이고 선명한 인쇄 타이포그래피. 글자는 남성의 머리와 어깨 뒤에 위치하여 일부 자연스럽게 가려지지만, 모든 음절을 즉시 읽을 수 있어야 한다. 글자가 인물 얼굴 위로 겹치지 않게 한다.\n\n정면의 낮은 카메라 위치, 중앙 대칭 구도, 극적인 광각 원근감, 하이퍼리얼 상업 음식 사진, 럭셔리 패션 에디토리얼, 실제 피부결, 정확한 손, 초고해상도, 날카로운 초점, 정교한 인쇄 광고 완성도.\n\n제외: 잘못된 한글, 분리되거나 깨진 글자, 중복 문자, 추가 문구, 영문 카피, 브랜드명, 로고, 워터마크, 추가 인물, 여러 개의 닭다리, 추가 손, 손가락 오류, 얼굴을 가리는 닭다리, 생닭, 탄 튀김옷, 지나치게 젖은 소스, 플라스틱 같은 음식, 스마트폰, 패키지, 접시, 테이블, 만화, 일러스트, CGI 광택, 흐림, 저해상도.",
+      "spec": {
+        "type": "하이엔드 레드 에디토리얼 프라이드치킨 캠페인 키 비주얼",
+        "style": "하이퍼리얼 상업 음식 사진과 럭셔리 패션 에디토리얼의 결합, 크림슨 레드·아이보리·블랙·골드의 고대비 팔레트",
+        "canvas": {
+          "aspect_ratio": "4:5",
+          "background": "깊은 크림슨 레드 스튜디오 그라데이션과 초대형 아이보리 한글 타이포그래피"
+        },
+        "reference_note": "사용자 제공 성공 이미지가 인물의 중앙 배치, 검은 슈트·흰 셔츠·검은 넥타이, 닭다리의 포어쇼트닝, 크러스트 질감, 레드 배경과 타이포 관계의 최우선 시각 기준이다.",
+        "scale_note": "남성의 상반신은 중앙에 두고, 손은 좌하단에서 렌즈 앞으로 크게 돌출시키며 닭다리를 중앙 전경에서 얼굴보다 크게 보이게 한다. 얼굴과 정면 시선은 가리지 않는다.",
+        "labels": {
+          "count": 1,
+          "list": [
+            "바삭함 끝판왕"
+          ]
+        },
+        "design": "크림슨 레드 배경 위 중앙 남성, 정면 저각도, 좌하단에서 중앙으로 돌출되는 손과 닭다리, 레드 림라이트, 인물 뒤의 두 줄 초대형 아이보리 타이포.",
+        "negative": "잘못된 한글·분리된 글자·중복 문자·추가 문구·영문·브랜드·로고·워터마크·추가 인물·여러 닭다리·추가 손·손가락 오류·얼굴 가림·생닭·탄 튀김·과도한 소스·플라스틱 음식·스마트폰·패키지·접시·테이블·만화·일러스트·CGI·흐림·저해상도 금지.",
+        "text_rendering": "‘바삭함 끝판왕’을 정확히 한 번, ‘바삭함’과 ‘끝판왕’ 두 줄의 초대형 아이보리 울트라 볼드 한글로 표시한다. 인물 뒤에 놓되 모든 음절을 읽을 수 있게 한다."
+      },
+      "composedPrompt": "Use case: ads-marketing\nAsset type: 프리미엄 프라이드치킨 캠페인 키 비주얼\nAspect ratio: 세로형 4:5\n\n강렬한 레드 컬러를 배경으로 한 하이엔드 패션 에디토리얼 스타일의 하이퍼리얼 프라이드치킨 광고.\n\n가상의 젊은 한국인 남성 모델이 화면 정중앙에 서서 카메라를 똑바로 바라본다. 단정한 검은색 테일러드 슈트, 흰색 드레스 셔츠와 검은색 넥타이를 착용한다. 짙은 검은 머리는 자연스럽게 뒤로 넘겼으며, 표정은 자신감 있고 차분한 럭셔리 패션 캠페인 분위기다. 특정 실존 인물이나 유명인을 닮지 않게 한다.\n\n남성이 오른손을 카메라 렌즈 앞으로 곧게 뻗어 프라이드치킨 닭다리 한 개를 관객에게 건넨다. 손은 화면 왼쪽 아래에서 크게 시작하고, 닭다리는 화면 중앙 전경을 대각선으로 가로지른다. 손과 닭다리에 강한 광각 포어쇼트닝을 적용해 닭다리가 얼굴보다 훨씬 크게 보이게 한다. 남성의 얼굴과 정면 시선은 닭다리 뒤에서도 완전히 보여야 한다.\n\n닭다리는 실제 상업 음식 사진처럼 극도로 사실적으로 표현한다. 두껍고 불규칙한 황금빛 크러스트, 크고 작은 바삭한 튀김 조각, 진한 골든 오렌지 컬러, 미세한 후추 입자, 자연스러운 소스와 기름의 윤기, 촉촉한 내부를 암시하는 입체적인 표면. 플라스틱이나 CGI처럼 보이지 않게 한다.\n\n손은 정확한 인체 구조를 유지한다. 다섯 손가락, 자연스러운 관절과 손톱, 설득력 있는 그립으로 닭다리의 뼈 부분을 잡는다. 추가 손가락이나 융합된 손가락이 없어야 한다.\n\n배경은 깊고 풍부한 크림슨 레드 스튜디오 그라데이션이다. 인물과 슈트 가장자리에 선명한 레드 림라이트를 적용한다. 정면의 부드러운 뷰티 라이트로 얼굴을 깨끗하게 밝히고, 닭다리에는 강한 골드 하이라이트를 더해 크러스트의 바삭한 질감을 강조한다. 깊은 블랙과 선명한 레드, 따뜻한 골드의 고대비 팔레트.\n\n남성 뒤에 초대형 아이보리색 한글 타이포그래피를 두 줄로 배치한다.\n\n첫째 줄: “바삭함”\n둘째 줄: “끝판왕”\n\n“바삭함 끝판왕”을 정확히 한 번만 표시한다. 초대형 울트라 볼드 산세리프 한글, 기하학적이고 두꺼운 획, 촘촘한 자간, 평면적이고 선명한 인쇄 타이포그래피. 글자는 남성의 머리와 어깨 뒤에 위치하여 일부 자연스럽게 가려지지만, 모든 음절을 즉시 읽을 수 있어야 한다. 글자가 인물 얼굴 위로 겹치지 않게 한다.\n\n정면의 낮은 카메라 위치, 중앙 대칭 구도, 극적인 광각 원근감, 하이퍼리얼 상업 음식 사진, 럭셔리 패션 에디토리얼, 실제 피부결, 정확한 손, 초고해상도, 날카로운 초점, 정교한 인쇄 광고 완성도.\n\n제외: 잘못된 한글, 분리되거나 깨진 글자, 중복 문자, 추가 문구, 영문 카피, 브랜드명, 로고, 워터마크, 추가 인물, 여러 개의 닭다리, 추가 손, 손가락 오류, 얼굴을 가리는 닭다리, 생닭, 탄 튀김옷, 지나치게 젖은 소스, 플라스틱 같은 음식, 스마트폰, 패키지, 접시, 테이블, 만화, 일러스트, CGI 광택, 흐림, 저해상도."
+    },
+    {
+      "id": "jinro-fire-table-garden-soju-ad-final-v1",
+      "title": "진로 더 파이어 테이블 정원 소주 광고 — 최종",
+      "category": "주류·다이닝",
+      "product": "JINRO 참이슬 fresh 소주",
+      "aspectRatio": "1:1",
+      "version": "final-v1",
+      "logoSpace": "화면 중앙 병의 정면 물리적 라벨",
+      "tags": [
+        "최종 자산",
+        "성공 프롬프트",
+        "진로",
+        "참이슬",
+        "소주 광고",
+        "라이브 파이어",
+        "바비큐",
+        "골든 아워",
+        "정원",
+        "상업 푸드 사진",
+        "정사각형 포스터"
+      ],
+      "summary": "골든 아워의 프라이빗 정원에서 중앙의 참이슬 소주병과 후방 숯불 그릴을 결합해 제품 우선순위와 라이브 파이어 다이닝의 식감을 동시에 살린 1:1 프리미엄 주류 광고 최종 프롬프트.",
+      "useCommonHeader": false,
+      "isConfirmed": true,
+      "derivedFrom": "jinro-fire-table-garden-soju-ad-base-v1",
+      "sourceExperimentId": "exp-20260915-180659-jinro-fire-table-final",
+      "confirmedIteration": 1,
+      "previewImage": "outputs/jinro-fire-table-garden-soju-ad-base-v1/2026-09-15/jinro-fire-table-garden-soju-ad-final-v1.png",
+      "source": {
+        "title": "사용자 제공 성공 이미지 및 확정 프롬프트",
+        "capturedAt": "2026-09-15",
+        "model": "ChatGPT 이미지 생성 — 세부 모델 미기록",
+        "settings": "정사각형 1:1, 1254×1254 PNG, 사용자 제공 완성 이미지"
+      },
+      "promptText": "사용 목적: 프리미엄 주류 및 라이브 파이어 다이닝 캠페인\n에셋 유형: 야외 라이프스타일 제품 광고 포스터\n화면 비율: 정사각형 1:1\n\n늦여름 골든 아워의 프라이빗 정원에서 촬영한 초현실적인 프리미엄 소주 광고 포스터.\n\n질감이 풍부한 짙은 녹색 잔디밭이 화면 전체를 채운다. 카메라는 지면보다 높은 위치에서 아래를 향하는 약 65~70도의 높은 사선 시점이다. 따뜻한 석양이 화면 왼쪽 상단에서 들어오며 잔디와 제품, 그릴 음식에 풍부한 금빛 하이라이트와 길고 부드러운 그림자를 만든다.\n\n화면 정중앙 전경에 녹색 유리 소주병 한 개를 똑바로 세운다. 병뚜껑부터 바닥까지 전체 형태가 완전히 보이며, 앞면 라벨은 카메라를 정확히 향한다. 병은 화면에서 가장 크고 선명한 히어로 제품이며, 그릴과 타이포그래피보다 먼저 인지되어야 한다.\n\n병은 두께감 있는 투명 녹색 유리, 정확한 숄더와 긴 목 구조, 녹색 금속 스크루캡, 내부의 투명한 소주, 사실적인 유리 굴절과 가장자리 하이라이트를 보여준다. 표면에는 작고 자연스러운 차가운 결로가 맺혀 있지만 라벨을 가리지 않는다.\n\n제품 라벨에는 흰색 직사각형 바탕, 파란색 물방울 심볼, 파란색 영문과 검은색 한글 타이포그래피가 선명하게 인쇄되어 있다. 라벨의 제품명, 로고, 글자와 배치는 첨부된 제품 레퍼런스를 그대로 유지하며 재해석하거나 새로운 문구를 만들지 않는다.\n\n제품 뒤쪽 중경에는 낮은 직사각형 숯불 그릴 한 개가 수평으로 배치되어 있다. 그릴 위에는 윤기 나는 구운 소시지, 두꺼운 스테이크, 고기와 채소 꼬치, 옥수수, 청피망, 홍피망, 양파와 구운 닭고기가 정돈된 형태로 배열되어 있다.\n\n음식은 세계적인 상업 푸드 사진 수준으로 사실적으로 표현한다. 소시지의 팽팽하게 블리스터링된 껍질, 스테이크의 짙은 시어링 크러스트, 캐러멜라이즈된 소스의 윤기, 채소의 자연스러운 그을림과 실제 그릴 자국을 보여준다. 작은 불꽃 몇 개와 얇고 투명한 연기만 사용한다. 음식이나 연기가 중앙의 소주병을 가리지 않게 한다.\n\n그릴은 열로 검게 변한 금속 바, 갈색과 검은색의 자연스러운 열 마모, 실제 숯불 그릴의 구조와 물리적인 반사를 보여준다. 제품보다 한 단계 낮은 초점과 대비를 유지한다.\n\n배경에는 정원 가장자리의 관목과 나뭇잎이 자연스럽게 둘러싸여 있다. 화면 오른쪽에는 낮은 돌 경계와 따뜻하게 빛나는 검은색 정원 조명이 배치되어 있다. 좌측 전경과 우측 하단에는 초점이 흐려진 잎과 돌을 사용하여 자연스러운 프레임을 만든다.\n\n상단 중앙에 작고 넓은 자간의 아이보리색 대문자 문구를 배치한다:\n\n“JINRO ORIGINAL PRESENTS”\n\n그 아래에 크고 우아한 크림색 핸드페인팅 브러시 스크립트 제목을 표시한다:\n\n“The Fire Table”\n\n제목은 정확히 한 번만 표시하며, 유기적인 붓 질감과 우아한 흐름을 가진 고급 에디토리얼 레터링으로 표현한다.\n\n제목 아래에는 작은 아이보리색 세리프 문구를 배치한다:\n\n“A soju and live-fire gathering.”\n\n우측 하단에는 작고 절제된 흰색 책임 음주 표시를 배치한다:\n\n“19+”\n“ENJOY RESPONSIBLY”\n\n모든 타이포그래피는 선명하고 정확하며 한 번씩만 표시한다. 허용된 문구 외에는 날짜, 가격, 할인 정보, 후원사, 메뉴 또는 추가 문구를 넣지 않는다.\n\n조명은 따뜻한 골든 아워 자연광이 중심이다. 화면 왼쪽 상단의 강한 금빛 역광이 나뭇잎과 잔디에 빛나는 가장자리를 만들고, 중앙 병에는 깨끗한 유리 하이라이트와 자연스러운 녹색 투과광을 형성한다. 그릴의 불빛은 음식 표면에 절제된 따뜻한 광택만 더한다.\n\n가장 선명한 초점은 중앙 소주병과 앞면 라벨이다. 그릴과 음식은 선명하지만 조금 더 부드럽고, 정원 배경과 전경의 식물은 얕은 피사계 심도로 자연스럽게 흐려진다.\n\n색상 팔레트:\n60% 풍부한 잔디 녹색과 정원의 딥그린\n25% 골든 아워의 따뜻한 금빛과 구운 음식의 갈색\n10% 소주병의 선명한 녹색과 라벨의 흰색·파란색\n5% 크림 아이보리 타이포그래피와 작은 불꽃의 오렌지색\n\n초현실주의 프리미엄 주류 광고, 하이엔드 야외 라이프스타일 캠페인, 세계적 수준의 상업 푸드 사진, 사실적인 제품 통합, 시네마틱 골든 아워, 섬세한 유리와 액체 굴절, 사실적인 잔디와 음식 재질, 절제된 그래픽 디자인, 완벽한 인쇄 광고 마감, 초고해상도.\n\n반드시 유지:\n중앙에 세워진 소주병 한 개, 완전히 보이는 병 실루엣, 정면을 향한 선명한 라벨, 후방의 직사각형 그릴, 골든 아워 정원, 허용된 네 개의 텍스트 블록.\n\n네거티브 프롬프트:\n여러 병, 추가 소주잔, 얼음통, 위스키병, 앰버색 액체, 잘못된 제품명, 변형된 로고, 재디자인된 라벨, 틀린 한글, 깨진 글자, 중복 문구, 추가 브랜드, 가상의 후원사, 병을 가리는 음식, 병을 가리는 타이포그래피, 과도한 결로, 플라스틱 같은 유리, 왜곡된 병, 불투명한 액체, 과도한 화염, 카툰 불꽃, 과도한 불티, 두꺼운 가짜 연기, 탄 음식, 지저분한 그릴, 탁한 잔디, 과도한 오렌지 색조, 저가 행사 전단, 워터마크, 흐림, 저해상도.",
+      "spec": {
+        "type": "프리미엄 주류 및 라이브 파이어 다이닝 야외 라이프스타일 제품 광고 포스터",
+        "style": "초현실적 하이엔드 상업 제품·푸드 사진, 늦여름 골든 아워, 사실적인 녹색 유리와 액체 굴절, 절제된 에디토리얼 타이포그래피",
+        "canvas": {
+          "aspect_ratio": "1:1",
+          "background": "짙은 녹색 잔디와 관목, 우측의 낮은 돌 경계와 따뜻한 검은색 정원 조명이 있는 프라이빗 정원"
+        },
+        "reference_note": "사용자 제공 성공 이미지가 병의 형상·정면 라벨·녹색 유리·그릴과 음식·골든 아워 정원·타이포그래피 배치의 최우선 시각 기준이다. 병 라벨의 제품명, 로고, 글자와 배치는 재해석하지 않는다.",
+        "scale_note": "약 65~70도의 높은 사선 시점에서 녹색 소주병 한 개를 정중앙 전경에 가장 크고 선명하게 세우고 병 전체를 노출한다. 낮은 직사각형 숯불 그릴은 병 뒤 중경에 수평 배치하며 제품보다 한 단계 낮은 초점과 대비를 유지한다.",
+        "labels": {
+          "count": 9,
+          "list": [
+            "JINRO ORIGINAL PRESENTS",
+            "The Fire Table",
+            "A soju and live-fire gathering.",
+            "19+",
+            "ENJOY RESPONSIBLY",
+            "JINRO",
+            "CHAMISUL",
+            "참이슬",
+            "fresh"
+          ]
+        },
+        "design": "화면 중앙 전경의 녹색 유리 소주병과 후방의 라이브 파이어 그릴을 수직 축으로 정렬한다. 좌상단 골든 아워 역광으로 잔디·병·음식에 금빛 하이라이트와 긴 부드러운 그림자를 만들고, 좌측 전경 잎과 우측 하단 돌을 흐린 자연 프레임으로 사용한다. 상단 중앙에는 작은 대문자, 큰 브러시 스크립트 제목, 작은 세리프 부제를 순서대로 배치하고 우하단에는 책임 음주 표시를 둔다.",
+        "negative": "여러 병·추가 소주잔·얼음통·위스키병·앰버색 액체·잘못된 제품명·변형 로고·재디자인 라벨·틀린 한글·깨진 글자·중복 문구·추가 브랜드·가상 후원사·병을 가리는 음식이나 타이포·과도한 결로·플라스틱 유리·왜곡된 병·불투명 액체·과도한 화염·카툰 불꽃·과도한 불티·두꺼운 가짜 연기·탄 음식·지저분한 그릴·탁한 잔디·과도한 오렌지색·저가 전단·워터마크·흐림·저해상도 금지.",
+        "text_rendering": "광고 카피는 네 블록으로 구성한다. 상단 중앙에 ‘JINRO ORIGINAL PRESENTS’, 그 아래 ‘The Fire Table’, 이어서 ‘A soju and live-fire gathering.’를 각각 정확히 한 번 표시한다. 우하단 책임 음주 블록에는 ‘19+’와 ‘ENJOY RESPONSIBLY’를 각각 한 번 표시한다. 병의 물리적 라벨에는 ‘JINRO’, ‘CHAMISUL’, ‘참이슬’, ‘fresh’를 성공 이미지와 같은 배치로 선명하게 유지하며 다른 광고 문구를 추가하지 않는다."
+      },
+      "composedPrompt": "사용 목적: 프리미엄 주류 및 라이브 파이어 다이닝 캠페인\n에셋 유형: 야외 라이프스타일 제품 광고 포스터\n화면 비율: 정사각형 1:1\n\n늦여름 골든 아워의 프라이빗 정원에서 촬영한 초현실적인 프리미엄 소주 광고 포스터.\n\n질감이 풍부한 짙은 녹색 잔디밭이 화면 전체를 채운다. 카메라는 지면보다 높은 위치에서 아래를 향하는 약 65~70도의 높은 사선 시점이다. 따뜻한 석양이 화면 왼쪽 상단에서 들어오며 잔디와 제품, 그릴 음식에 풍부한 금빛 하이라이트와 길고 부드러운 그림자를 만든다.\n\n화면 정중앙 전경에 녹색 유리 소주병 한 개를 똑바로 세운다. 병뚜껑부터 바닥까지 전체 형태가 완전히 보이며, 앞면 라벨은 카메라를 정확히 향한다. 병은 화면에서 가장 크고 선명한 히어로 제품이며, 그릴과 타이포그래피보다 먼저 인지되어야 한다.\n\n병은 두께감 있는 투명 녹색 유리, 정확한 숄더와 긴 목 구조, 녹색 금속 스크루캡, 내부의 투명한 소주, 사실적인 유리 굴절과 가장자리 하이라이트를 보여준다. 표면에는 작고 자연스러운 차가운 결로가 맺혀 있지만 라벨을 가리지 않는다.\n\n제품 라벨에는 흰색 직사각형 바탕, 파란색 물방울 심볼, 파란색 영문과 검은색 한글 타이포그래피가 선명하게 인쇄되어 있다. 라벨의 제품명, 로고, 글자와 배치는 첨부된 제품 레퍼런스를 그대로 유지하며 재해석하거나 새로운 문구를 만들지 않는다.\n\n제품 뒤쪽 중경에는 낮은 직사각형 숯불 그릴 한 개가 수평으로 배치되어 있다. 그릴 위에는 윤기 나는 구운 소시지, 두꺼운 스테이크, 고기와 채소 꼬치, 옥수수, 청피망, 홍피망, 양파와 구운 닭고기가 정돈된 형태로 배열되어 있다.\n\n음식은 세계적인 상업 푸드 사진 수준으로 사실적으로 표현한다. 소시지의 팽팽하게 블리스터링된 껍질, 스테이크의 짙은 시어링 크러스트, 캐러멜라이즈된 소스의 윤기, 채소의 자연스러운 그을림과 실제 그릴 자국을 보여준다. 작은 불꽃 몇 개와 얇고 투명한 연기만 사용한다. 음식이나 연기가 중앙의 소주병을 가리지 않게 한다.\n\n그릴은 열로 검게 변한 금속 바, 갈색과 검은색의 자연스러운 열 마모, 실제 숯불 그릴의 구조와 물리적인 반사를 보여준다. 제품보다 한 단계 낮은 초점과 대비를 유지한다.\n\n배경에는 정원 가장자리의 관목과 나뭇잎이 자연스럽게 둘러싸여 있다. 화면 오른쪽에는 낮은 돌 경계와 따뜻하게 빛나는 검은색 정원 조명이 배치되어 있다. 좌측 전경과 우측 하단에는 초점이 흐려진 잎과 돌을 사용하여 자연스러운 프레임을 만든다.\n\n상단 중앙에 작고 넓은 자간의 아이보리색 대문자 문구를 배치한다:\n\n“JINRO ORIGINAL PRESENTS”\n\n그 아래에 크고 우아한 크림색 핸드페인팅 브러시 스크립트 제목을 표시한다:\n\n“The Fire Table”\n\n제목은 정확히 한 번만 표시하며, 유기적인 붓 질감과 우아한 흐름을 가진 고급 에디토리얼 레터링으로 표현한다.\n\n제목 아래에는 작은 아이보리색 세리프 문구를 배치한다:\n\n“A soju and live-fire gathering.”\n\n우측 하단에는 작고 절제된 흰색 책임 음주 표시를 배치한다:\n\n“19+”\n“ENJOY RESPONSIBLY”\n\n모든 타이포그래피는 선명하고 정확하며 한 번씩만 표시한다. 허용된 문구 외에는 날짜, 가격, 할인 정보, 후원사, 메뉴 또는 추가 문구를 넣지 않는다.\n\n조명은 따뜻한 골든 아워 자연광이 중심이다. 화면 왼쪽 상단의 강한 금빛 역광이 나뭇잎과 잔디에 빛나는 가장자리를 만들고, 중앙 병에는 깨끗한 유리 하이라이트와 자연스러운 녹색 투과광을 형성한다. 그릴의 불빛은 음식 표면에 절제된 따뜻한 광택만 더한다.\n\n가장 선명한 초점은 중앙 소주병과 앞면 라벨이다. 그릴과 음식은 선명하지만 조금 더 부드럽고, 정원 배경과 전경의 식물은 얕은 피사계 심도로 자연스럽게 흐려진다.\n\n색상 팔레트:\n60% 풍부한 잔디 녹색과 정원의 딥그린\n25% 골든 아워의 따뜻한 금빛과 구운 음식의 갈색\n10% 소주병의 선명한 녹색과 라벨의 흰색·파란색\n5% 크림 아이보리 타이포그래피와 작은 불꽃의 오렌지색\n\n초현실주의 프리미엄 주류 광고, 하이엔드 야외 라이프스타일 캠페인, 세계적 수준의 상업 푸드 사진, 사실적인 제품 통합, 시네마틱 골든 아워, 섬세한 유리와 액체 굴절, 사실적인 잔디와 음식 재질, 절제된 그래픽 디자인, 완벽한 인쇄 광고 마감, 초고해상도.\n\n반드시 유지:\n중앙에 세워진 소주병 한 개, 완전히 보이는 병 실루엣, 정면을 향한 선명한 라벨, 후방의 직사각형 그릴, 골든 아워 정원, 허용된 네 개의 텍스트 블록.\n\n네거티브 프롬프트:\n여러 병, 추가 소주잔, 얼음통, 위스키병, 앰버색 액체, 잘못된 제품명, 변형된 로고, 재디자인된 라벨, 틀린 한글, 깨진 글자, 중복 문구, 추가 브랜드, 가상의 후원사, 병을 가리는 음식, 병을 가리는 타이포그래피, 과도한 결로, 플라스틱 같은 유리, 왜곡된 병, 불투명한 액체, 과도한 화염, 카툰 불꽃, 과도한 불티, 두꺼운 가짜 연기, 탄 음식, 지저분한 그릴, 탁한 잔디, 과도한 오렌지 색조, 저가 행사 전단, 워터마크, 흐림, 저해상도."
+    },
+    {
+      "id": "the-saem-triple-color-concealer-clean-lab-final-v1",
+      "title": "더샘 트리플 컬러 코렉팅 컨실러 클린 랩 — 최종",
+      "category": "뷰티 이커머스",
+      "product": "더샘 트리플 컬러 코렉팅 컨실러",
+      "aspectRatio": "3:4",
+      "version": "final-v1",
+      "logoSpace": "중앙 컴팩트 투명 뚜껑의 물리적 THE SAEM 인쇄",
+      "tags": [
+        "최종 자산",
+        "성공 프롬프트",
+        "더샘",
+        "트리플 컨실러",
+        "컬러 코렉팅",
+        "클린 뷰티 랩",
+        "하이키",
+        "유리 굴절",
+        "화이트 스튜디오",
+        "볼드 한글 타이포",
+        "세로 광고"
+      ],
+      "summary": "밝은 화이트 뷰티 랩에서 Y자형 3분할 컬러 코렉팅 컨실러를 중앙 히어로로 세우고, 투명 유리·물과 대형 한글 카피로 임상적이면서 고급스러운 인상을 만든 3:4 최종 프롬프트.",
+      "useCommonHeader": false,
+      "isConfirmed": true,
+      "derivedFrom": "the-saem-triple-color-concealer-clean-lab-base-v1",
+      "sourceExperimentId": "exp-20260915-182443-the-saem-triple-concealer-final",
+      "confirmedIteration": 1,
+      "previewImage": "outputs/the-saem-triple-color-concealer-clean-lab-base-v1/2026-09-15/the-saem-triple-color-concealer-clean-lab-final-v1.png",
+      "source": {
+        "title": "사용자 제공 성공 이미지 및 확정 프롬프트",
+        "capturedAt": "2026-09-15",
+        "model": "ChatGPT 이미지 생성 — 세부 모델 미기록",
+        "settings": "세로형 3:4, 1086×1448 PNG, 사용자 제공 완성 이미지"
+      },
+      "promptText": "사용 목적: 화장품 프로모션 광고\n에셋 유형: 트리플 컬러 코렉팅 컨실러 제품 키 비주얼\n화면 비율: 세로형 3:4\n\n밝고 깨끗한 화이트 뷰티 랩을 배경으로 한 프리미엄 트리플 컬러 컨실러 제품 광고를 제작한다.\n\n화면 중앙에 원형 트리플 컬러 컨실러 컴팩트 한 개를 정면으로 세워 배치한다. 제품은 화면의 가장 크고 선명한 히어로 오브젝트이며, 원형 실루엣 전체가 완전히 보여야 한다.\n\n제품은 두께감 있는 투명 아크릴 원형 케이스와 깨끗한 흰색 내부 프레임으로 구성한다. 내부는 정확한 Y자형 칸막이로 세 영역을 나눈다.\n\n세 가지 컨실러 색상:\n\n- 왼쪽 상단: 밝은 뉴트럴 베이지\n- 오른쪽 상단: 부드러운 피치 코랄\n- 하단: 차분한 옐로 그린\n\n컨실러 내용물은 매끄럽고 보송한 프레스드 크림 제형으로 표현한다. 표면은 깨끗하고 균일하며, 실제 화장품처럼 미세한 파우더와 크림 질감을 보여준다.\n\n제품 중앙을 가로질러 검은색 산세리프 브랜드 로고를 선명하게 표시한다:\n\n“THE SAEM”\n\n브랜드명은 정확히 한 번만 표시한다. 글자는 제품의 중앙 수평축에 놓이며, 투명 뚜껑 위에 인쇄된 것처럼 표현한다.\n\n제품 주변에는 과학적인 투명 유리와 물 요소를 배치한다.\n\n화면 왼쪽에는 투명한 물과 가느다란 녹색 줄기, 작은 흰색 꽃이 담긴 키 큰 삼각 플라스크를 배치한다. 플라스크는 화면 왼쪽 가장자리에서 일부 잘리지만 꽃과 줄기는 완전히 인식되어야 한다.\n\n화면 오른쪽에는 투명한 물이 담긴 대형 비커와 가느다란 유리 막대를 배치한다. 비커는 제품보다 뒤쪽에 위치하며 중앙 제품을 가리지 않는다.\n\n왼쪽 하단 전경에는 화면 가장자리에서 일부 잘린 둥근 투명 유리 구체를 배치한다.\n\n제품 앞쪽의 흰색 반사 테이블 위에는 서로 다른 크기의 투명한 반구형 물방울 두 개를 배치한다.\n\n오른쪽 하단 전경에는 화면 가장자리에서 일부 잘린 투명한 페트리 접시 또는 얕은 원형 유리 접시를 배치한다.\n\n모든 유리 소품은 깨끗하고 정밀한 실험실 도구처럼 보여야 한다. 두께감 있는 유리, 선명한 가장자리 하이라이트, 사실적인 굴절, 부드러운 커스틱과 투명한 물의 깊이를 표현한다.\n\n제품 위쪽의 깨끗한 흰색 여백에 다음 광고 카피를 배치한다.\n\n상단 보조 카피:\n\n“1위 컨실러”\n\n그 아래의 메인 헤드라인:\n\n“나만 안 써본\n품절대란템!”\n\n두 문구를 각각 정확히 한 번만 표시한다.\n\n“1위 컨실러”는 작은 크기의 검은색 볼드 산세리프 한글로 상단 중앙에 배치한다.\n\n“나만 안 써본 품절대란템!”은 대형 울트라 볼드 산세리프 한글로 두 줄에 걸쳐 배치한다. 매우 두껍고 기하학적인 획, 촘촘한 자간, 검은색을 사용한다. “품절대란템!”을 가장 강하고 크게 표현한다.\n\n카피는 중앙 정렬하고 제품의 수직 중심축과 정확하게 맞춘다. 제품, 꽃 또는 유리 소품과 겹치지 않게 한다. 모든 글자가 화면 안에 완전히 들어가야 한다.\n\n배경은 밝은 화이트에서 아주 옅은 쿨 그레이로 이어지는 깨끗한 스튜디오 그라데이션이다. 바닥은 광택이 나는 흰색 반사 실험실 표면이며, 제품과 유리 소품의 은은한 반사를 보여준다.\n\n제품 아래에는 부드럽고 자연스러운 타원형 그림자와 흐린 반사를 만든다. 반사 속에 새로운 제품이나 글자가 생기지 않게 한다.\n\n조명은 밝고 부드러운 하이키 스튜디오 조명이다. 큰 소프트박스의 확산광이 정면과 왼쪽 위에서 들어오며, 제품 케이스와 유리 소품에 정교한 흰색 하이라이트를 만든다.\n\n전체 화면은 밝고 임상적이지만 차갑거나 저렴하게 보이지 않아야 한다. 깨끗한 화이트, 투명한 유리, 블랙 타이포그래피와 부드러운 컨실러 컬러가 세련된 대비를 형성한다.\n\n중앙 제품과 광고 카피는 날카롭게 선명하고, 전경과 후경의 유리 소품에는 매우 얕고 자연스러운 피사계 심도를 적용한다.\n\n스타일:\n프리미엄 한국 코스메틱 캠페인, 클린 뷰티 랩, 초현실적인 상업 제품 사진, 하이키 스튜디오 라이팅, 미니멀 럭셔리, 정교한 유리 굴절, 깨끗한 반사 표면, 선명한 패키지 디테일, 현대적인 볼드 한글 타이포그래피, 초고해상도, 완벽한 인쇄 광고 마감.\n\n허용되는 텍스트:\n\n“1위 컨실러”\n“나만 안 써본 품절대란템!”\n“THE SAEM”\n\n각 문구를 정확히 한 번만 표시하고 다른 문구는 추가하지 않는다.\n\n네거티브 프롬프트:\n세럼병, 펌프병, 원통형 병, 여러 개의 컨실러, 추가 화장품, 열린 케이스, 브러시, 퍼프, 인물, 얼굴, 손, 2분할 제품, 4분할 제품, 잘못된 Y자형 칸막이, 합쳐진 색상, 액체 같은 컨실러, 지저분한 제품 표면, 제품을 가리는 소품, 제품을 가리는 타이포그래피, 잘못된 한글, 분리된 받침, 중복 글자, 누락된 글자, 틀린 브랜드 철자, 중복 로고, 추가 영문, 가격, 할인율, 프로모션 배지, 워터마크, 과도한 반사, 반사 속 추가 제품, 흐림, 저해상도.\n\n최종 텍스트 검수:\n\n“1위 컨실러”\n“나만 안 써본 품절대란템!”\n“THE SAEM”\n\n세 문구의 철자, 숫자, 띄어쓰기와 느낌표를 그대로 유지하고 각각 정확히 한 번만 표시한다.",
+      "spec": {
+        "type": "트리플 컬러 코렉팅 컨실러 세로형 제품 키 비주얼",
+        "style": "프리미엄 한국 코스메틱 캠페인, 클린 화이트 뷰티 랩, 하이키 상업 제품 사진, 정교한 유리 굴절과 현대적인 볼드 한글 타이포그래피",
+        "canvas": {
+          "aspect_ratio": "3:4",
+          "background": "밝은 화이트에서 아주 옅은 쿨 그레이로 이어지는 스튜디오 그라데이션과 광택 있는 흰색 반사 실험실 표면"
+        },
+        "reference_note": "사용자 제공 성공 이미지가 투명 아크릴 원형 케이스, 흰색 내부 프레임, 정확한 Y자형 3분할, 베이지·피치 코랄·옐로 그린 내용물, THE SAEM 물리적 인쇄, 유리 소품과 타이포 배치의 최우선 시각 기준이다.",
+        "scale_note": "원형 컴팩트 한 개를 화면 중앙에 정면으로 세워 가장 크고 선명한 히어로로 배치하고 전체 원형 실루엣을 노출한다. 상단 중앙에는 두 단계 카피를 두며, 좌측 플라스크와 우측 비커는 제품보다 뒤에, 유리 구체·물방울 두 개·페트리 접시는 전경 가장자리에 배치한다.",
+        "labels": {
+          "count": 3,
+          "list": [
+            "1위 컨실러",
+            "나만 안 써본 품절대란템!",
+            "THE SAEM"
+          ]
+        },
+        "design": "화이트 여백의 상단 중앙에 작은 ‘1위 컨실러’와 두 줄의 초대형 ‘나만 안 써본 / 품절대란템!’을 제품 수직축에 맞춰 배치한다. 중앙 제품의 투명 뚜껑에는 ‘THE SAEM’을 수평 인쇄한다. 좌측 꽃 플라스크, 우측 비커와 유리 막대, 좌하단 유리 구체, 중앙 전경의 크기가 다른 반구형 물방울 두 개, 우하단 얕은 유리 접시가 제품을 가리지 않으며 부드러운 커스틱과 얕은 피사계 심도를 만든다.",
+        "negative": "세럼병·펌프병·원통형 병·여러 컨실러·추가 화장품·열린 케이스·브러시·퍼프·인물·얼굴·손·2분할·4분할·잘못된 Y자 칸막이·합쳐진 색상·액체 제형·지저분한 표면·제품을 가리는 소품이나 타이포·잘못된 한글·분리된 받침·중복 또는 누락 글자·틀린 브랜드 철자·중복 로고·추가 영문·가격·할인율·배지·워터마크·과도한 반사·반사 속 추가 제품·흐림·저해상도 금지.",
+        "text_rendering": "‘1위 컨실러’, ‘나만 안 써본 품절대란템!’, ‘THE SAEM’을 철자·숫자·띄어쓰기·느낌표 그대로 각각 정확히 한 번 표시한다. 메인 헤드라인은 ‘나만 안 써본’과 ‘품절대란템!’ 두 줄로 구성하고 두 번째 줄을 가장 크고 강하게 표현한다. 다른 문구를 추가하지 않는다."
+      },
+      "composedPrompt": "사용 목적: 화장품 프로모션 광고\n에셋 유형: 트리플 컬러 코렉팅 컨실러 제품 키 비주얼\n화면 비율: 세로형 3:4\n\n밝고 깨끗한 화이트 뷰티 랩을 배경으로 한 프리미엄 트리플 컬러 컨실러 제품 광고를 제작한다.\n\n화면 중앙에 원형 트리플 컬러 컨실러 컴팩트 한 개를 정면으로 세워 배치한다. 제품은 화면의 가장 크고 선명한 히어로 오브젝트이며, 원형 실루엣 전체가 완전히 보여야 한다.\n\n제품은 두께감 있는 투명 아크릴 원형 케이스와 깨끗한 흰색 내부 프레임으로 구성한다. 내부는 정확한 Y자형 칸막이로 세 영역을 나눈다.\n\n세 가지 컨실러 색상:\n\n- 왼쪽 상단: 밝은 뉴트럴 베이지\n- 오른쪽 상단: 부드러운 피치 코랄\n- 하단: 차분한 옐로 그린\n\n컨실러 내용물은 매끄럽고 보송한 프레스드 크림 제형으로 표현한다. 표면은 깨끗하고 균일하며, 실제 화장품처럼 미세한 파우더와 크림 질감을 보여준다.\n\n제품 중앙을 가로질러 검은색 산세리프 브랜드 로고를 선명하게 표시한다:\n\n“THE SAEM”\n\n브랜드명은 정확히 한 번만 표시한다. 글자는 제품의 중앙 수평축에 놓이며, 투명 뚜껑 위에 인쇄된 것처럼 표현한다.\n\n제품 주변에는 과학적인 투명 유리와 물 요소를 배치한다.\n\n화면 왼쪽에는 투명한 물과 가느다란 녹색 줄기, 작은 흰색 꽃이 담긴 키 큰 삼각 플라스크를 배치한다. 플라스크는 화면 왼쪽 가장자리에서 일부 잘리지만 꽃과 줄기는 완전히 인식되어야 한다.\n\n화면 오른쪽에는 투명한 물이 담긴 대형 비커와 가느다란 유리 막대를 배치한다. 비커는 제품보다 뒤쪽에 위치하며 중앙 제품을 가리지 않는다.\n\n왼쪽 하단 전경에는 화면 가장자리에서 일부 잘린 둥근 투명 유리 구체를 배치한다.\n\n제품 앞쪽의 흰색 반사 테이블 위에는 서로 다른 크기의 투명한 반구형 물방울 두 개를 배치한다.\n\n오른쪽 하단 전경에는 화면 가장자리에서 일부 잘린 투명한 페트리 접시 또는 얕은 원형 유리 접시를 배치한다.\n\n모든 유리 소품은 깨끗하고 정밀한 실험실 도구처럼 보여야 한다. 두께감 있는 유리, 선명한 가장자리 하이라이트, 사실적인 굴절, 부드러운 커스틱과 투명한 물의 깊이를 표현한다.\n\n제품 위쪽의 깨끗한 흰색 여백에 다음 광고 카피를 배치한다.\n\n상단 보조 카피:\n\n“1위 컨실러”\n\n그 아래의 메인 헤드라인:\n\n“나만 안 써본\n품절대란템!”\n\n두 문구를 각각 정확히 한 번만 표시한다.\n\n“1위 컨실러”는 작은 크기의 검은색 볼드 산세리프 한글로 상단 중앙에 배치한다.\n\n“나만 안 써본 품절대란템!”은 대형 울트라 볼드 산세리프 한글로 두 줄에 걸쳐 배치한다. 매우 두껍고 기하학적인 획, 촘촘한 자간, 검은색을 사용한다. “품절대란템!”을 가장 강하고 크게 표현한다.\n\n카피는 중앙 정렬하고 제품의 수직 중심축과 정확하게 맞춘다. 제품, 꽃 또는 유리 소품과 겹치지 않게 한다. 모든 글자가 화면 안에 완전히 들어가야 한다.\n\n배경은 밝은 화이트에서 아주 옅은 쿨 그레이로 이어지는 깨끗한 스튜디오 그라데이션이다. 바닥은 광택이 나는 흰색 반사 실험실 표면이며, 제품과 유리 소품의 은은한 반사를 보여준다.\n\n제품 아래에는 부드럽고 자연스러운 타원형 그림자와 흐린 반사를 만든다. 반사 속에 새로운 제품이나 글자가 생기지 않게 한다.\n\n조명은 밝고 부드러운 하이키 스튜디오 조명이다. 큰 소프트박스의 확산광이 정면과 왼쪽 위에서 들어오며, 제품 케이스와 유리 소품에 정교한 흰색 하이라이트를 만든다.\n\n전체 화면은 밝고 임상적이지만 차갑거나 저렴하게 보이지 않아야 한다. 깨끗한 화이트, 투명한 유리, 블랙 타이포그래피와 부드러운 컨실러 컬러가 세련된 대비를 형성한다.\n\n중앙 제품과 광고 카피는 날카롭게 선명하고, 전경과 후경의 유리 소품에는 매우 얕고 자연스러운 피사계 심도를 적용한다.\n\n스타일:\n프리미엄 한국 코스메틱 캠페인, 클린 뷰티 랩, 초현실적인 상업 제품 사진, 하이키 스튜디오 라이팅, 미니멀 럭셔리, 정교한 유리 굴절, 깨끗한 반사 표면, 선명한 패키지 디테일, 현대적인 볼드 한글 타이포그래피, 초고해상도, 완벽한 인쇄 광고 마감.\n\n허용되는 텍스트:\n\n“1위 컨실러”\n“나만 안 써본 품절대란템!”\n“THE SAEM”\n\n각 문구를 정확히 한 번만 표시하고 다른 문구는 추가하지 않는다.\n\n네거티브 프롬프트:\n세럼병, 펌프병, 원통형 병, 여러 개의 컨실러, 추가 화장품, 열린 케이스, 브러시, 퍼프, 인물, 얼굴, 손, 2분할 제품, 4분할 제품, 잘못된 Y자형 칸막이, 합쳐진 색상, 액체 같은 컨실러, 지저분한 제품 표면, 제품을 가리는 소품, 제품을 가리는 타이포그래피, 잘못된 한글, 분리된 받침, 중복 글자, 누락된 글자, 틀린 브랜드 철자, 중복 로고, 추가 영문, 가격, 할인율, 프로모션 배지, 워터마크, 과도한 반사, 반사 속 추가 제품, 흐림, 저해상도.\n\n최종 텍스트 검수:\n\n“1위 컨실러”\n“나만 안 써본 품절대란템!”\n“THE SAEM”\n\n세 문구의 철자, 숫자, 띄어쓰기와 느낌표를 그대로 유지하고 각각 정확히 한 번만 표시한다."
+    }
+  ]
+}
