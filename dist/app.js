@@ -1,4 +1,7 @@
-const isHiddenCustomPrompt = prompt => /일본 가족용 가습기 라이프스타일 광고.*기반.*확정.*2026-09-03/.test(prompt.title || '');
+const isHiddenCustomPrompt = prompt =>
+  prompt.id === 'jp-family-humidifier-lifestyle-clean-final-v1' ||
+  /일본 가족용 가습기 라이프스타일 광고.*클린 최종본/.test(prompt.title || '') ||
+  /일본 가족용 가습기 라이프스타일 광고.*기반.*확정.*2026-09-03/.test(prompt.title || '');
 const state = { prompts: [], seedPrompts: [], customPrompts: JSON.parse(localStorage.getItem('image-craft-custom-prompts') || '[]').filter(prompt=>!isHiddenCustomPrompt(prompt)), category: '전체', query: '', activeExperimentPromptId: null, experiments: JSON.parse(localStorage.getItem('image-craft-experiments') || '[]') };
 const hiddenExperimentPromptIds = new Set([
   'carepod-jp-square-to-4x5-base-v1',
@@ -15,7 +18,8 @@ const hiddenExperimentPromptIds = new Set([
   'the-saem-primer-copy-vertical-base-v1',
   'the-saem-triple-pot-video-copy-final-v1',
   'the-saem-silicone-zero-primer-promo-final-v1',
-  'the-saem-summer-cover-promo-final-v1'
+  'the-saem-summer-cover-promo-final-v1',
+  'jp-family-humidifier-lifestyle-clean-final-v1'
 ]);
 const $ = (selector) => document.querySelector(selector);
 const escapeHtml = (value='') => value.replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -26,7 +30,11 @@ async function init() {
   state.seedPrompts = data.prompts.filter(prompt=>!prompt.archived);
   const visibleFileExperiments=experimentData.experiments.filter(item=>!hiddenExperimentPromptIds.has(item.promptId));
   const fileById=new Map(visibleFileExperiments.map(item=>[item.id,item]));
-  const localOnly=state.experiments.filter(item=>!fileById.has(item.id)&&item.source!=='codex-thread');
+  const localOnly=state.experiments.filter(item=>
+    !fileById.has(item.id) &&
+    item.source !== 'codex-thread' &&
+    !hiddenExperimentPromptIds.has(item.promptId)
+  );
   const mergedFileExperiments=visibleFileExperiments.map(fileItem=>{
     const localItem=state.experiments.find(item=>item.id===fileItem.id);
     const merged={...(localItem||{}),...fileItem};
