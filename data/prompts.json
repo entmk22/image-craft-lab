@@ -293,63 +293,6 @@
       "composedPrompt": "Use case: compositing. Asset type: finished vertical 4:5 Korean beauty summer promotion. 광고 레이아웃 이미지를 편집 대상으로 사용한다. 첫 번째 고해상도 인물 원본을 좌측에 배치하고 얼굴·표정·시선·피부·머리카락·의상·손·반지·손에 든 제품을 원본과 동일하게 유지한다. 두 번째 고해상도 제품 원본의 세워진 단일 용기를 우측 연하늘색 영역에 배치하고 용기 실루엣·비율·펌프 구조·밀키블루 소재·곡선형 흰 제형·파란색 물리적 인쇄를 유지한다. 제품 원본의 눕힌 추가 용기·바닥·원래 배경은 제외한다. 좌상단 ‘올영세일 8.30–9.5’, 우상단 ‘THE saem’, ‘이거 하나면’, ‘사계절 내내’, ‘완벽한 피부 화장 완성’, 하단 ‘더샘 스킨 프렙 밸런싱 밀크 로션’과 밝은 블루그레이 입체 글자 ‘9천원대’를 각각 정확히 한 번 유지한다. 좌측 버터베이지·우측 연하늘색 곡선 분할과 딥블루 푸터를 유지한다. 두 원본이 광고 안에 정밀하게 합성된 것처럼 깨끗하고 선명한 고해상도 사진 품질로 표현하며 얼룩·반복 미세 패턴·미로형 무늬·밴딩·헤일로·의사 문자를 금지한다. 추가 문구·로고·제품·인물·워터마크를 넣지 않는다."
     },
     {
-      "id": "jp-family-humidifier-lifestyle-clean-final-v1",
-      "title": "일본 가족용 가습기 라이프스타일 광고 — 클린 최종본",
-      "category": "일본 생활가전",
-      "product": "스탠드형 가족용 프리미엄 가습기",
-      "aspectRatio": "4:5",
-      "version": "final-v1",
-      "logoSpace": "제품 전면의 작은 물리적 로고만 유지",
-      "isConfirmed": true,
-      "derivedFrom": "jp-family-humidifier-lifestyle-base-v1",
-      "sourceExperimentId": "exp-20260903-155927-jp-family-humidifier-prompt-10",
-      "confirmedIteration": 10,
-      "previewImage": "outputs/jp-family-humidifier-lifestyle-base-v1/2026-09-03/jp-family-humidifier-lifestyle-base-v1-prompt-10.png",
-      "tags": [
-        "일본 광고",
-        "가습기",
-        "가족",
-        "아이",
-        "골든 리트리버",
-        "스탠드형 제품",
-        "네 발 베이스",
-        "흰색 그라데이션",
-        "클린 표면",
-        "저주파 질감"
-      ],
-      "summary": "어머니·아이·골든 리트리버가 함께하는 따뜻한 원목 거실에서 의사 설계 가습기의 가족 친화적 사용성을 전달하고, 흰색 가독성 그라데이션과 저미세질감 렌더링으로 표면 아티팩트를 억제한 최종 확정 프롬프트.",
-      "useCommonHeader": false,
-      "source": {
-        "title": "사용자 확정 프롬프트 10 기록",
-        "capturedAt": "2026-09-03",
-        "model": "built-in image_gen",
-        "settings": "세로 4:5, 표면 클린업, 네 발 십자형 베이스, 미스트 없음"
-      },
-      "promptText": "Use case: precise-object-edit — surface cleanup only. Asset type: Japanese premium family-safe humidifier lifestyle advertisement, vertical 4:5, prompt 10 record. Image 1 is the sole edit target and authority for layout, content, identity, typography, product design, lighting and color. Reconstruct the identical image with clean, simple, low-microtexture photographic rendering. Eliminate blotchy, embossed, maze-like and worm-like artifacts; favor smooth broad tonal forms and sparse natural detail. Preserve the dog pose but render broad soft golden fur masses with restrained natural strands and no repeated curls. Preserve the rug as a simple low-pile solid cream wool surface without loops, glyphs, swirls or raised motifs. Preserve garments as plain ivory cotton with extremely fine unresolved weave and no decorative cable pattern. Use sparse broad low-contrast wood grain with no fingerprint swirls or worm marks. Use smooth curtain folds, natural skin, clean hair locks and perfectly smooth matte product plastic. Keep sharp focal edges without global oversharpening. Preserve the exact 4:5 crop, family identities and poses, dog, book, room, lighting, white readability gradient, no-mist condition and exactly four equal-length base arms at 90-degree intervals. Render exactly once: ‘家族のそばに置くなら、医師設計の加湿器。’, ‘うるおいだけでなく、清潔に使い続けやすいことまで考えました。’, ‘清潔なミストで、心地よい毎日を。’. No changed objects, faces, anatomy, product, feet, copy, layout, mist, pseudo-text, watermark, blur, low resolution, denoise smearing, painterly surface, CGI sheen, oversharpening, mottling, stains, repeated pattern, tiling, maze lines, worm lines, cellular noise, swirls, embossed texture or ornamental fabric.",
-      "spec": {
-        "type": "일본 가족용 스탠드형 가습기 라이프스타일 상업 광고",
-        "style": "따뜻한 원목 거실과 오후 자연광을 사용한 깨끗하고 저미세질감의 프리미엄 일본 생활가전 카탈로그 사진",
-        "canvas": {
-          "aspect_ratio": "4:5",
-          "background": "밝은 오크 바닥, 허니베이지 원목 벽, 부드러운 아이보리 커튼과 크림색 저파일 러그가 있는 정돈된 거실"
-        },
-        "reference_note": "직전 확정 이미지의 가족·강아지·제품·카피·조명·배치를 절대 기준으로 유지하고, 표면은 큰 명암과 제한된 자연 디테일만 사용해 깨끗하게 재구성한다.",
-        "scale_note": "어머니와 아이는 중앙 좌측 중경, 골든 리트리버는 좌측 전경, 스탠드형 가습기는 우측 전경에 둔다. 제품 하단에는 실제 길이가 동일한 직선형 네 발을 90도 간격으로 배치한다.",
-        "labels": {
-          "count": 3,
-          "list": [
-            "家族のそばに置くなら、医師設計の加湿器。",
-            "うるおいだけでなく、清潔に使い続けやすいことまで考えました。",
-            "清潔なミストで、心地よい毎日を。"
-          ]
-        },
-        "design": "좌측 상단의 메인·서브 카피 뒤에는 경계 없는 흰색에서 투명으로 사라지는 그라데이션을 커튼 빛처럼 적용한다. 우측에는 미스트 없이 매끈한 큐브형 상부와 가는 중앙 기둥, 대칭 네 발 베이스의 가습기를 배치한다. 러그·옷·털·나무는 미세정보를 억제하고 넓고 부드러운 명암으로 표현한다.",
-        "negative": "미스트·증기·연기·안개, 추가 인물·동물·제품·소품, 얼굴·손·강아지·제품 왜곡, 세 발·다섯 발·길이가 다른 받침, 의사 문자·중복 카피·추가 로고·워터마크, 얼룩·반점·미로형·지렁이형·세포형·지문형·양각형·타일형·반복형 미세무늬, 과도한 샤픈·번짐·저해상도·페인터리·CGI 금지.",
-        "text_rendering": "지정한 일본어 3개 문구를 각각 정확히 한 번 표시한다. 좌측 두 문구는 진한 차콜색으로 유지하고 뒤에만 부드러운 흰색 그라데이션을 적용하며, 우측 문구는 흰색으로 유지한다. 다른 카피·가격·날짜·배지·각주를 추가하지 않는다."
-      },
-      "composedPrompt": "Use case: precise-object-edit — surface cleanup only. Asset type: Japanese premium family-safe humidifier lifestyle advertisement, vertical 4:5, prompt 10 record. Image 1 is the sole edit target and authority for layout, content, identity, typography, product design, lighting and color. Reconstruct the identical image with clean, simple, low-microtexture photographic rendering. Eliminate blotchy, embossed, maze-like and worm-like artifacts; favor smooth broad tonal forms and sparse natural detail. Preserve the dog pose but render broad soft golden fur masses with restrained natural strands and no repeated curls. Preserve the rug as a simple low-pile solid cream wool surface without loops, glyphs, swirls or raised motifs. Preserve garments as plain ivory cotton with extremely fine unresolved weave and no decorative cable pattern. Use sparse broad low-contrast wood grain with no fingerprint swirls or worm marks. Use smooth curtain folds, natural skin, clean hair locks and perfectly smooth matte product plastic. Keep sharp focal edges without global oversharpening. Preserve the exact 4:5 crop, family identities and poses, dog, book, room, lighting, white readability gradient, no-mist condition and exactly four equal-length base arms at 90-degree intervals. Render exactly once: ‘家族のそばに置くなら、医師設計の加湿器。’, ‘うるおいだけでなく、清潔に使い続けやすいことまで考えました。’, ‘清潔なミストで、心地よい毎日を。’. No changed objects, faces, anatomy, product, feet, copy, layout, mist, pseudo-text, watermark, blur, low resolution, denoise smearing, painterly surface, CGI sheen, oversharpening, mottling, stains, repeated pattern, tiling, maze lines, worm lines, cellular noise, swirls, embossed texture or ornamental fabric."
-    },
-    {
       "id": "evian-alpine-sunrise-product-ad-final-v1",
       "title": "에비앙 알프스 일출 생수 광고 — 최종",
       "category": "음료·FMCG",
